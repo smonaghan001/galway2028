@@ -835,11 +835,7 @@
       <h3>Stay informed</h3>
       <p>Be the first to hear about registration, schedule and athlete updates.</p>
     </div>
-    <form class="notify-form" action="https://formspree.io/f/xojbobwa" method="POST" onsubmit="handleNotify(event)">
-      <input type="email" name="email" id="notify-email" placeholder="your@email.com" required />
-      <button type="submit">Notify Me</button>
-    </form>
-    <p id="notify-confirm" style="display:none;color:var(--gold-light);font-size:0.88rem;margin-top:0.5rem;">✓ You're on the list!</p>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeVFTX2HdlMXMuJrkqbJ1hbRYyr-E2cQ_IKcRt9219nCpZoOA/viewform?usp=publish-editor" target="_blank" rel="noopener" style="display:inline-block;background:var(--green);color:#fff;font-weight:600;font-size:0.88rem;padding:0.7rem 1.4rem;border-radius:8px;transition:background 0.2s;" onmouseover="this.style.background='#2a8f52'" onmouseout="this.style.background='var(--green)'">Keep Me Informed →</a>
   </div>
 </div>
 
@@ -850,6 +846,9 @@
       <div class="about-body">
         <p class="section-eyebrow">About the Championships</p>
         <h2 class="section-title">Masters Athletics at its Finest</h2>
+        <div style="margin-bottom:1rem;">
+          <img src="image2.png" alt="European Masters Athletics" style="height:48px;width:auto;object-fit:contain;opacity:0.9;" />
+        </div>
         <p>The European Masters Athletics Championships — Non-Stadia (EMACNS) brings together the best masters athletes aged 35 and over from across Europe for nordic walking, road racing, cross country relays and race walking.</p>
         <p>Set against the dramatic backdrop of the Wild Atlantic Way, expect world-class competition, Irish hospitality, and an unforgettable experience in one of Europe's most vibrant cities.</p>
         <p>Events will be centred round Galway city, with a social programme and the iconic EMACNS medal awaiting the top three!!</p>
@@ -884,10 +883,9 @@
           <img src="image2.png" alt="European Masters Athletics" style="height:50px;width:auto;object-fit:contain;" />
         </div>
 
-        <!-- Galway City Council placeholder -->
-        <div style="background:var(--navy-card);border:1px solid rgba(255,255,255,0.07);border-radius:10px;padding:0.9rem 1.4rem;display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:130px;min-height:70px;gap:0.3rem;">
-          <div style="width:36px;height:36px;border-radius:50%;background:rgba(255,255,255,0.06);display:flex;align-items:center;justify-content:center;font-size:1.2rem;">🏛️</div>
-          <span style="font-size:0.65rem;color:var(--text-muted);letter-spacing:0.04em;text-align:center;">Galway City Council</span>
+        <!-- Galway City Council -->
+        <div style="background:var(--navy-card);border:1px solid rgba(255,255,255,0.07);border-radius:10px;padding:0.9rem 1.4rem;display:flex;align-items:center;justify-content:center;">
+          <img src="galway-council-transparent.png" alt="Galway City Council" style="height:50px;width:auto;object-fit:contain;" />
         </div>
 
         <!-- Sponsor placeholder 1 -->
@@ -1223,7 +1221,6 @@
 
       <div style="background:var(--navy-card);border:2px solid var(--gold);border-radius:var(--radius);padding:1.8rem;position:relative;">
         <div style="position:absolute;top:-1px;right:1.2rem;background:var(--gold);color:var(--navy);font-size:0.65rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;padding:0.25rem 0.7rem;border-radius:0 0 6px 6px;">Headline</div>
-        <div style="font-size:1.8rem;font-weight:700;color:var(--gold-light);margin-bottom:0.25rem;">€20,000</div>
         <h4 style="font-size:1rem;font-weight:700;color:#fff;margin-bottom:0.75rem;">Headline Sponsor</h4>
         <ul style="font-size:0.82rem;color:var(--text-muted);line-height:1.7;padding-left:1rem;">
           <li>Event naming rights</li>
@@ -1236,7 +1233,6 @@
       </div>
 
       <div style="background:var(--navy-card);border:1px solid rgba(192,192,192,0.3);border-radius:var(--radius);padding:1.8rem;">
-        <div style="font-size:1.8rem;font-weight:700;color:#c0c0c0;margin-bottom:0.25rem;">€10,000</div>
         <h4 style="font-size:1rem;font-weight:700;color:#fff;margin-bottom:0.75rem;">Gold Sponsor</h4>
         <ul style="font-size:0.82rem;color:var(--text-muted);line-height:1.7;padding-left:1rem;">
           <li>Prominent logo on event materials & website</li>
@@ -1249,7 +1245,6 @@
       </div>
 
       <div style="background:var(--navy-card);border:1px solid rgba(205,127,50,0.3);border-radius:var(--radius);padding:1.8rem;">
-        <div style="font-size:1.8rem;font-weight:700;color:#cd7f32;margin-bottom:0.25rem;">€5,000</div>
         <h4 style="font-size:1rem;font-weight:700;color:#fff;margin-bottom:0.75rem;">Silver Sponsor</h4>
         <ul style="font-size:0.82rem;color:var(--text-muted);line-height:1.7;padding-left:1rem;">
           <li>Logo on website & selected materials</li>
@@ -1261,7 +1256,6 @@
       </div>
 
       <div style="background:var(--navy-card);border:1px solid rgba(255,255,255,0.07);border-radius:var(--radius);padding:1.8rem;">
-        <div style="font-size:1.8rem;font-weight:700;color:var(--green-light);margin-bottom:0.25rem;">€2,000</div>
         <h4 style="font-size:1rem;font-weight:700;color:#fff;margin-bottom:0.75rem;">Community Partner</h4>
         <ul style="font-size:0.82rem;color:var(--text-muted);line-height:1.7;padding-left:1rem;">
           <li>Logo on event website</li>
@@ -1381,6 +1375,42 @@
     const btn = e.target.querySelector('button');
     btn.textContent = '✓ You\'re on the list!';
     btn.style.background = '#1a6b3c';
+  }
+</script>
+
+<!-- ─── COOKIE CONSENT ───────────────────────────────────────── -->
+<div id="cookie-banner" style="display:none;position:fixed;bottom:0;left:0;right:0;z-index:999;background:#0d1221;border-top:1px solid rgba(201,168,76,0.25);padding:1.25rem 2rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem;">
+  <p style="font-size:0.82rem;color:#c5bfb5;max-width:700px;margin:0;">
+    We use cookies to analyse site traffic via Google Analytics. No personal data is shared with third parties.
+    <a href="https://policies.google.com/privacy" target="_blank" rel="noopener" style="color:var(--gold);text-decoration:underline;text-underline-offset:3px;">Learn more</a>
+  </p>
+  <div style="display:flex;gap:0.75rem;flex-shrink:0;">
+    <button onclick="acceptCookies()" style="background:var(--gold);color:#0a0e1a;border:none;border-radius:6px;padding:0.5rem 1.2rem;font-size:0.82rem;font-weight:700;font-family:inherit;cursor:pointer;">Accept</button>
+    <button onclick="declineCookies()" style="background:transparent;color:var(--text-muted);border:1px solid rgba(255,255,255,0.15);border-radius:6px;padding:0.5rem 1.2rem;font-size:0.82rem;font-weight:500;font-family:inherit;cursor:pointer;">Decline</button>
+  </div>
+</div>
+
+<script>
+  // Cookie consent
+  (function() {
+    const consent = localStorage.getItem('cookie-consent');
+    if (!consent) {
+      document.getElementById('cookie-banner').style.display = 'flex';
+    } else if (consent === 'declined') {
+      // Disable GA if previously declined
+      window['ga-disable-G-QJJYYE20G2'] = true;
+    }
+  })();
+
+  function acceptCookies() {
+    localStorage.setItem('cookie-consent', 'accepted');
+    document.getElementById('cookie-banner').style.display = 'none';
+  }
+
+  function declineCookies() {
+    localStorage.setItem('cookie-consent', 'declined');
+    window['ga-disable-G-QJJYYE20G2'] = true;
+    document.getElementById('cookie-banner').style.display = 'none';
   }
 </script>
 
