@@ -117,7 +117,57 @@
     .footer-brand .brand-domain { font-size: 0.75rem; color: var(--text-muted); }
     .footer-copy { font-size: 0.75rem; color: rgba(156,163,175,0.5); }
 
-    @media (max-width: 600px) { .nav-links { display: none; } .modal { padding: 1.5rem; } }
+    /* ─── HAMBURGER BUTTON ───────────────────────────────── */
+    .nav-hamburger {
+      display: none;
+      flex-direction: column;
+      justify-content: center;
+      gap: 5px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 4px 6px;
+      z-index: 110;
+    }
+    .nav-hamburger span {
+      display: block; width: 24px; height: 2px;
+      background: var(--gold-light); border-radius: 2px;
+      transition: transform 0.25s, opacity 0.25s;
+    }
+    .nav-hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .nav-hamburger.open span:nth-child(2) { opacity: 0; }
+    .nav-hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+    .mobile-menu {
+      display: none; position: fixed;
+      top: 64px; left: 0; right: 0;
+      background: rgba(10,14,26,0.98);
+      border-bottom: 1px solid rgba(201,168,76,0.2);
+      z-index: 99; flex-direction: column;
+      padding: 1rem 2rem 1.5rem; gap: 0.25rem;
+    }
+    .mobile-menu.open { display: flex; }
+    .mobile-menu a {
+      font-size: 0.9rem; font-weight: 500;
+      color: var(--text-muted); letter-spacing: 0.05em;
+      text-transform: uppercase; padding: 0.65rem 0;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+      transition: color 0.2s;
+    }
+    .mobile-menu a:last-child { border-bottom: none; }
+    .mobile-menu a:hover { color: var(--gold-light); }
+    .mobile-menu .nav-cta {
+      margin-top: 0.75rem; background: var(--gold);
+      color: var(--navy) !important; border-radius: 6px;
+      padding: 0.65rem 1.25rem; text-align: center;
+      font-weight: 700 !important; border-bottom: none !important;
+    }
+
+    @media (max-width: 800px) {
+      .nav-links { display: none; }
+      .nav-hamburger { display: flex; }
+    }
+    @media (max-width: 600px) { .modal { padding: 1.5rem; } }
   </style>
 </head>
 <body>
@@ -140,7 +190,24 @@
     <a href="index.html#sponsors">Sponsors</a>
     <a href="index.html#volunteer" class="nav-cta">Get Involved</a>
   </div>
+  <button class="nav-hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
 </nav>
+
+<div class="mobile-menu" id="mobile-menu">
+  <a href="index.html">Home</a>
+  <a href="index.html#about">About</a>
+  <a href="index.html#events">Events</a>
+  <a href="index.html#venue">Venue</a>
+  <a href="index.html#travel">Travel</a>
+  <a href="index.html#accommodation">Stay</a>
+  <a href="news.html" class="active">News</a>
+  <a href="index.html#faq">FAQ</a>
+  <a href="index.html#volunteer">Volunteer</a>
+  <a href="index.html#sponsors">Sponsors</a>
+  <a href="index.html#volunteer" class="nav-cta">Get Involved</a>
+</div>
 
 <div class="page-header">
   <div class="page-header-inner">
@@ -211,6 +278,21 @@
 </div>
 
 <script>
+  // Hamburger menu
+  const hamburger = document.getElementById('hamburger');
+  const mobileMenu = document.getElementById('mobile-menu');
+  hamburger.addEventListener('click', () => {
+    const isOpen = mobileMenu.classList.toggle('open');
+    hamburger.classList.toggle('open', isOpen);
+    hamburger.setAttribute('aria-expanded', String(isOpen));
+  });
+  document.addEventListener('click', e => {
+    if (!hamburger.contains(e.target) && !mobileMenu.contains(e.target)) {
+      hamburger.classList.remove('open');
+      mobileMenu.classList.remove('open');
+    }
+  });
+
   function openPost(id) {
     document.getElementById('modal-' + id).classList.add('open');
     document.body.style.overflow = 'hidden';
