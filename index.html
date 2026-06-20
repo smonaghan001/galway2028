@@ -1359,9 +1359,9 @@
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:2rem;align-items:center;flex-wrap:wrap;">
         <div>
           <h3 style="font-family:'Playfair Display',serif;font-size:1.2rem;color:#fff;margin-bottom:0.5rem;">Get in Touch</h3>
-          <p style="font-size:0.85rem;color:var(--text-muted);margin-bottom:1rem;">Contact Ronan Gately to discuss sponsorship opportunities and receive our full prospectus.</p>
+          <p style="font-size:0.85rem;color:var(--text-muted);margin-bottom:1rem;">Get in touch to discuss sponsorship opportunities and receive our full prospectus.</p>
           <div style="font-size:0.85rem;color:#c5bfb5;line-height:2;">
-            <div>📧 <a href="mailto:ronangately@hotmail.com" style="color:var(--gold);">ronangately@hotmail.com</a></div>
+            <div>📧 <a href="mailto:galway2028ie@gmail.com" style="color:var(--gold);">galway2028ie@gmail.com</a></div>
             <div>📞 <a href="tel:+353868289296" style="color:var(--gold);">086 828 9296</a></div>
             <div style="font-size:0.78rem;color:var(--text-muted);margin-top:0.25rem;">Masters in Motion CLG</div>
           </div>
@@ -1431,48 +1431,6 @@
   tick();
   setInterval(tick, 1000);
 
-  /* Generic Formspree AJAX submit */
-  async function submitForm(form, confirmId) {
-    const data = new FormData(form);
-    const btn = form.querySelector('button[type="submit"]');
-    btn.disabled = true;
-    btn.textContent = 'Sending…';
-    try {
-      const res = await fetch(form.action, {
-        method: 'POST',
-        body: data,
-        headers: { 'Accept': 'application/json' }
-      });
-      if (res.ok) {
-        form.style.display = 'none';
-        document.getElementById(confirmId).style.display = 'block';
-      } else {
-        btn.disabled = false;
-        btn.textContent = 'Try again';
-      }
-    } catch {
-      btn.disabled = false;
-      btn.textContent = 'Try again';
-    }
-  }
-
-  function handleVolunteer(e) {
-    e.preventDefault();
-    submitForm(e.target, 'vol-confirm');
-  }
-
-  function handleSponsor(e) {
-    e.preventDefault();
-    submitForm(e.target, 'sp-confirm');
-  }
-
-  function handleNotify(e) {
-    e.preventDefault();
-    submitForm(e.target, 'notify-confirm');
-    const btn = e.target.querySelector('button');
-    btn.textContent = '✓ You\'re on the list!';
-    btn.style.background = '#1a6b3c';
-  }
 </script>
 
 <!-- ─── COOKIE CONSENT ───────────────────────────────────────── -->
