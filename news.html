@@ -51,6 +51,12 @@
     .nav-links a:hover, .nav-links a.active { color: var(--gold-light); }
     .nav-cta { background: var(--gold); color: var(--navy) !important; padding: 0.45rem 1rem; border-radius: 6px; font-weight: 600 !important; }
     .nav-cta:hover { background: var(--gold-light) !important; }
+    .nav-social { display: flex; gap: 0.6rem; align-items: center; }
+    .nav-social a { color: var(--text-muted); display: flex; transition: color 0.2s; }
+    .nav-social a:hover { color: var(--gold-light); }
+    .mobile-menu-social { display: flex; gap: 1.25rem; align-items: center; justify-content: center; padding-bottom: 1rem; margin-bottom: 0.5rem; border-bottom: 1px solid rgba(255,255,255,0.08); }
+    .mobile-menu-social a { color: var(--text-muted); }
+    .mobile-menu-social a:hover { color: var(--gold-light); }
 
     .page-header {
       padding: 9rem 2rem 4rem;
@@ -116,6 +122,10 @@
     .footer-brand .brand-name { font-weight: 700; color: var(--gold-light); font-size: 0.95rem; }
     .footer-brand .brand-domain { font-size: 0.75rem; color: var(--text-muted); }
     .footer-copy { font-size: 0.75rem; color: rgba(156,163,175,0.5); }
+    .footer-links-label { font-size: 0.68rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); margin-bottom: 0.6rem; }
+    .footer-links { display: flex; gap: 1.5rem; flex-wrap: wrap; }
+    .footer-links a { font-size: 0.8rem; color: var(--text-muted); transition: color 0.2s; }
+    .footer-links a:hover { color: var(--gold-light); }
     .footer-social { display: flex; gap: 0.75rem; align-items: center; }
     .footer-social a {
       display: flex; align-items: center; justify-content: center;
@@ -196,6 +206,14 @@
     <a href="index.html#faq">FAQ</a>
     <a href="index.html#volunteer">Volunteer</a>
     <a href="index.html#sponsors">Sponsors</a>
+    <div class="nav-social" aria-label="Follow us on social media">
+      <a href="https://www.facebook.com/profile.php?id=61591034930422" target="_blank" rel="noopener" aria-label="Facebook">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+      </a>
+      <a href="https://www.instagram.com/galway2028ie" target="_blank" rel="noopener" aria-label="Instagram">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+      </a>
+    </div>
     <a href="index.html#volunteer" class="nav-cta">Get Involved</a>
   </div>
   <button class="nav-hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
@@ -204,6 +222,14 @@
 </nav>
 
 <div class="mobile-menu" id="mobile-menu">
+  <div class="mobile-menu-social">
+    <a href="https://www.facebook.com/profile.php?id=61591034930422" target="_blank" rel="noopener" aria-label="Facebook" onclick="closeMobileMenu()">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+    </a>
+    <a href="https://www.instagram.com/galway2028ie" target="_blank" rel="noopener" aria-label="Instagram" onclick="closeMobileMenu()">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+    </a>
+  </div>
   <a href="index.html">Home</a>
   <a href="index.html#about">About</a>
   <a href="index.html#events">Events</a>
@@ -230,6 +256,17 @@
 
       <!-- ─── ADD NEW POSTS ABOVE THIS LINE ─── -->
 
+      <!-- POST: Galway Gears Up — A City Built for Champions -->
+      <div class="post-card" onclick="openPost('city-built-for-champions')">
+        <div class="post-card-img-placeholder"><span>🏙️</span></div>
+        <div class="post-card-body">
+          <p class="post-date">15 June 2026</p>
+          <h2 class="post-title">Galway Gears Up — A City Built for Champions</h2>
+          <p class="post-summary">With 23 months to go, we take a closer look at the city that will host EMACNS 2028 — and why Galway is the perfect stage for Europe's masters athletes.</p>
+          <span class="post-read-more">Read more →</span>
+        </div>
+      </div>
+
       <!-- POST: Welcome to EMACNS Galway 2028 -->
       <div class="post-card" onclick="openPost('welcome')">
         <div class="post-card-img-placeholder"><span>🏅</span></div>
@@ -246,6 +283,21 @@
 </section>
 
 <!-- POST MODALS -->
+
+<!-- Modal: City Built for Champions -->
+<div class="modal-overlay" id="modal-city-built-for-champions" onclick="closeModal(event, 'city-built-for-champions')">
+  <div class="modal">
+    <button class="modal-close" onclick="closePost('city-built-for-champions')">✕</button>
+    <p class="modal-date">15 June 2026</p>
+    <h2 class="modal-title">Galway Gears Up — A City Built for Champions</h2>
+    <div class="modal-content">
+      <p>With exactly 23 months to go until May 2028, planning for the European Masters Athletics Championships Non-Stadia is gathering pace — and we want to tell you a little more about the city that will be your home for those unforgettable days of competition.</p>
+      <p>Galway is one of Europe's most celebrated cultural cities: a vibrant, walkable city on Ireland's Wild Atlantic Way, with a festival spirit that runs through its very streets. From the medieval Latin Quarter and the Claddagh waterfront to the world-class Galway Racecourse and the wide open spaces of Connacht Athletics Arena, the city has everything a masters athlete could ask for — outstanding venues, a warm welcome, and an atmosphere that simply has to be experienced.</p>
+      <p>The organising committee is deep in the planning process, working closely with Athletics Ireland, local authorities, and venue partners to ensure that EMACNS 2028 delivers a championship worthy of its athletes. In the months ahead we will be sharing confirmed venue details, the event programme, and all the practical information you need to begin planning your trip to Ireland.</p>
+      <p>Whether you are a seasoned masters competitor or attending your first European championship, we promise you an event to remember. Mark May 2028 in your diary, follow our updates, and join us as Galway prepares to welcome the best masters athletes in Europe.</p>
+    </div>
+  </div>
+</div>
 
 <!-- Modal: Welcome -->
 <div class="modal-overlay" id="modal-welcome" onclick="closeModal(event, 'welcome')">
@@ -268,6 +320,22 @@
     <div class="footer-brand">
       <div class="brand-name">EMACNS Galway 2028</div>
       <div class="brand-domain">galway2028.ie</div>
+    </div>
+    <div>
+      <p class="footer-links-label">Quick Links</p>
+      <div class="footer-links">
+        <a href="index.html#about">About</a>
+        <a href="index.html#events">Events</a>
+        <a href="index.html#venue">Venue</a>
+        <a href="index.html#travel">Travel</a>
+        <a href="index.html#accommodation">Stay</a>
+        <a href="index.html#faq">FAQ</a>
+        <a href="index.html#merch">Merch</a>
+        <a href="index.html#volunteer">Volunteer</a>
+        <a href="index.html#sponsors">Sponsors</a>
+        <a href="index.html#privacy-faq">Privacy</a>
+        <a href="mailto:info@galway2028.ie">Contact</a>
+      </div>
     </div>
     <div class="footer-social">
       <a href="https://www.facebook.com/profile.php?id=61591034930422" target="_blank" rel="noopener" aria-label="Facebook">

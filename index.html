@@ -110,7 +110,7 @@
             "name": "What events are at EMACNS Galway 2028?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "EMACNS Galway 2028 includes road racing (10km and Half Marathon), Nordic walking, cross country relays (women's, men's and mixed), and race walking (10km and Half Marathon). All events are run by 5-year age group from M/W35 to M/W85+."
+              "text": "EMACNS Galway 2028 includes road racing (10km and Half Marathon), Nordic walking, cross country relays (women's, men's and mixed), and race walking (10km and Half Marathon). All events are run by 5-year age group from M/W35 to M/W100+."
             }
           },
           {
@@ -118,7 +118,7 @@
             "name": "Who can compete at EMACNS Galway 2028?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Any masters athlete aged 35 or over representing a European Masters Athletics affiliated nation is eligible to compete. Athletes compete in 5-year age groups from M35/W35 through to M85+/W85+."
+              "text": "Any masters athlete aged 35 or over representing a European Masters Athletics affiliated nation is eligible to compete. Athletes compete in 5-year age groups from M35/W35 through to M100+/W100+."
             }
           },
           {
@@ -244,6 +244,12 @@
       transition: background 0.2s !important;
     }
     .nav-cta:hover { background: var(--gold-light) !important; }
+    .nav-social { display: flex; gap: 0.6rem; align-items: center; }
+    .nav-social a { color: var(--text-muted); display: flex; transition: color 0.2s; }
+    .nav-social a:hover { color: var(--gold-light); }
+    .mobile-menu-social { display: flex; gap: 1.25rem; align-items: center; justify-content: center; padding-bottom: 1rem; margin-bottom: 0.5rem; border-bottom: 1px solid rgba(255,255,255,0.08); }
+    .mobile-menu-social a { color: var(--text-muted); }
+    .mobile-menu-social a:hover { color: var(--gold-light); }
 
     /* ─── HERO ───────────────────────────────────────────── */
     .hero {
@@ -749,6 +755,7 @@
     }
     .footer-brand .brand-name { font-weight: 700; color: var(--gold-light); font-size: 0.95rem; }
     .footer-brand .brand-domain { font-size: 0.75rem; color: var(--text-muted); }
+    .footer-links-label { font-size: 0.68rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); margin-bottom: 0.6rem; }
     .footer-links { display: flex; gap: 1.5rem; flex-wrap: wrap; }
     .footer-links a { font-size: 0.8rem; color: var(--text-muted); transition: color 0.2s; }
     .footer-links a:hover { color: var(--gold-light); }
@@ -855,6 +862,14 @@
     <a href="#faq">FAQ</a>
     <a href="#volunteer">Volunteer</a>
     <a href="#sponsors">Sponsors</a>
+    <div class="nav-social" aria-label="Follow us on social media">
+      <a href="https://www.facebook.com/profile.php?id=61591034930422" target="_blank" rel="noopener" aria-label="Facebook">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+      </a>
+      <a href="https://www.instagram.com/galway2028ie" target="_blank" rel="noopener" aria-label="Instagram">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+      </a>
+    </div>
     <a href="#volunteer" class="nav-cta">Get Involved</a>
   </div>
   <button class="nav-hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
@@ -864,6 +879,14 @@
 
 <!-- ─── MOBILE MENU DRAWER ──────────────────────────────── -->
 <div class="mobile-menu" id="mobile-menu">
+  <div class="mobile-menu-social">
+    <a href="https://www.facebook.com/profile.php?id=61591034930422" target="_blank" rel="noopener" aria-label="Facebook" onclick="closeMobileMenu()">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+    </a>
+    <a href="https://www.instagram.com/galway2028ie" target="_blank" rel="noopener" aria-label="Instagram" onclick="closeMobileMenu()">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+    </a>
+  </div>
   <a href="#about" onclick="closeMobileMenu()">About</a>
   <a href="#events" onclick="closeMobileMenu()">Events</a>
   <a href="#venue" onclick="closeMobileMenu()">Venue</a>
@@ -924,6 +947,7 @@
     </div>
     <a href="https://docs.google.com/forms/d/e/1FAIpQLSeVFTX2HdlMXMuJrkqbJ1hbRYyr-E2cQ_IKcRt9219nCpZoOA/viewform?usp=publish-editor" target="_blank" rel="noopener" style="display:inline-block;background:var(--green);color:#fff;font-weight:600;font-size:0.88rem;padding:0.7rem 1.4rem;border-radius:8px;transition:background 0.2s;" onmouseover="this.style.background='#2a8f52'" onmouseout="this.style.background='var(--green)'">Keep Me Informed →</a>
   </div>
+  <p style="max-width:1100px;margin:0.5rem auto 0;padding:0 1.5rem;font-size:0.72rem;color:rgba(255,255,255,0.55);">We'll only use your details to contact you about Galway 2028 — see our <a href="#privacy-faq" style="color:inherit;text-decoration:underline;">privacy note</a>.</p>
 </div>
 
 <!-- ─── ABOUT ──────────────────────────────────────────────── -->
@@ -943,7 +967,7 @@
       <div class="about-stats">
         <div class="stat-card">
           <span class="stat-num">35+</span>
-          <span class="stat-label">Age groups (M35–M85+, W35–W85+)</span>
+          <span class="stat-label">Age groups (M35–M100+, W35–W100+)</span>
         </div>
         <div class="stat-card">
           <span class="stat-num">20+</span>
@@ -1001,7 +1025,7 @@
   <div class="section-inner">
     <p class="section-eyebrow">Competition Programme</p>
     <h2 class="section-title">Events</h2>
-    <p class="section-lead">All disciplines are run by 5-year age group from M/W35 through to M/W85+. Full programme to be confirmed.</p>
+    <p class="section-lead">All disciplines are run by 5-year age group from M/W35 through to M/W100+. Full programme to be confirmed.</p>
     <div class="events-grid">
       <div class="event-card">
         <div class="event-icon">🏃</div>
@@ -1023,6 +1047,40 @@
         <h4>Nordic Walking</h4>
         <p>Nordic walking alongside the cross country in Galway's green spaces.</p>
       </div>
+    </div>
+
+    <!-- Age category table -->
+    <div style="margin-top:2.5rem;background:var(--navy-card);border:1px solid rgba(201,168,76,0.12);border-radius:var(--radius);padding:1.75rem 2rem;">
+      <h3 style="font-family:'Playfair Display',serif;font-size:1.1rem;color:#fff;margin-bottom:0.4rem;">Age Categories</h3>
+      <p style="font-size:0.85rem;color:var(--text-muted);margin-bottom:1.25rem;">Competitors are placed in 5-year age groups based on the age they turn during 2028, in line with standard EMA/WMA convention:</p>
+      <div style="overflow-x:auto;">
+        <table style="width:100%;border-collapse:collapse;font-size:0.85rem;min-width:480px;">
+          <thead>
+            <tr style="border-bottom:1px solid rgba(201,168,76,0.25);">
+              <th style="text-align:left;padding:0.6rem 0.5rem;color:var(--gold-light);font-weight:600;">Age Group</th>
+              <th style="text-align:left;padding:0.6rem 0.5rem;color:var(--gold-light);font-weight:600;">Category</th>
+              <th style="text-align:left;padding:0.6rem 0.5rem;color:var(--gold-light);font-weight:600;">Birth Years</th>
+            </tr>
+          </thead>
+          <tbody style="color:#c5bfb5;">
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.06);"><td style="padding:0.55rem 0.5rem;">35–39</td><td style="padding:0.55rem 0.5rem;">M35 / W35</td><td style="padding:0.55rem 0.5rem;">1989–1993</td></tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.06);"><td style="padding:0.55rem 0.5rem;">40–44</td><td style="padding:0.55rem 0.5rem;">M40 / W40</td><td style="padding:0.55rem 0.5rem;">1984–1988</td></tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.06);"><td style="padding:0.55rem 0.5rem;">45–49</td><td style="padding:0.55rem 0.5rem;">M45 / W45</td><td style="padding:0.55rem 0.5rem;">1979–1983</td></tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.06);"><td style="padding:0.55rem 0.5rem;">50–54</td><td style="padding:0.55rem 0.5rem;">M50 / W50</td><td style="padding:0.55rem 0.5rem;">1974–1978</td></tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.06);"><td style="padding:0.55rem 0.5rem;">55–59</td><td style="padding:0.55rem 0.5rem;">M55 / W55</td><td style="padding:0.55rem 0.5rem;">1969–1973</td></tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.06);"><td style="padding:0.55rem 0.5rem;">60–64</td><td style="padding:0.55rem 0.5rem;">M60 / W60</td><td style="padding:0.55rem 0.5rem;">1964–1968</td></tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.06);"><td style="padding:0.55rem 0.5rem;">65–69</td><td style="padding:0.55rem 0.5rem;">M65 / W65</td><td style="padding:0.55rem 0.5rem;">1959–1963</td></tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.06);"><td style="padding:0.55rem 0.5rem;">70–74</td><td style="padding:0.55rem 0.5rem;">M70 / W70</td><td style="padding:0.55rem 0.5rem;">1954–1958</td></tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.06);"><td style="padding:0.55rem 0.5rem;">75–79</td><td style="padding:0.55rem 0.5rem;">M75 / W75</td><td style="padding:0.55rem 0.5rem;">1949–1953</td></tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.06);"><td style="padding:0.55rem 0.5rem;">80–84</td><td style="padding:0.55rem 0.5rem;">M80 / W80</td><td style="padding:0.55rem 0.5rem;">1944–1948</td></tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.06);"><td style="padding:0.55rem 0.5rem;">85–89</td><td style="padding:0.55rem 0.5rem;">M85 / W85</td><td style="padding:0.55rem 0.5rem;">1939–1943</td></tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.06);"><td style="padding:0.55rem 0.5rem;">90–94</td><td style="padding:0.55rem 0.5rem;">M90 / W90</td><td style="padding:0.55rem 0.5rem;">1934–1938</td></tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.06);"><td style="padding:0.55rem 0.5rem;">95–99</td><td style="padding:0.55rem 0.5rem;">M95 / W95</td><td style="padding:0.55rem 0.5rem;">1929–1933</td></tr>
+            <tr><td style="padding:0.55rem 0.5rem;">100+</td><td style="padding:0.55rem 0.5rem;">M100+ / W100+</td><td style="padding:0.55rem 0.5rem;">1928 or earlier</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p style="font-size:0.75rem;color:var(--text-muted);margin-top:1rem;">Age groups shown are indicative. Exact technical rules and entry procedures will be confirmed by EMA ahead of registration opening.</p>
     </div>
   </div>
 </section>
@@ -1152,6 +1210,8 @@
     <h2 class="section-title">Frequently Asked Questions</h2>
     <div style="max-width:760px;margin-top:2rem;">
 
+      <p style="font-size:0.72rem;font-weight:700;color:var(--gold);letter-spacing:0.1em;text-transform:uppercase;margin-bottom:0.5rem;">About the Event</p>
+
       <details style="border-bottom:1px solid rgba(255,255,255,0.08);padding:1.2rem 0;" open>
         <summary style="font-size:1rem;font-weight:600;color:#fff;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;">
           What is EMACNS Galway 2028?
@@ -1160,15 +1220,7 @@
         <p style="font-size:0.9rem;color:var(--text-muted);margin-top:0.75rem;line-height:1.7;">EMACNS Galway 2028 is the European Masters Athletics Championships Non-Stadia, held in Galway, Ireland in May 2028. It is a major international athletics competition for masters athletes aged 35 and over, featuring road racing, Nordic walking, cross country relays and race walking.</p>
       </details>
 
-      <details style="border-bottom:1px solid rgba(255,255,255,0.08);padding:1.2rem 0;">
-        <summary style="font-size:1rem;font-weight:600;color:#fff;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;">
-          Who can compete?
-          <span style="color:var(--gold);font-size:1.2rem;flex-shrink:0;margin-left:1rem;">+</span>
-        </summary>
-        <p style="font-size:0.9rem;color:var(--text-muted);margin-top:0.75rem;line-height:1.7;">Any masters athlete aged 35 or over representing a European Masters Athletics affiliated nation is eligible to compete. Athletes compete in 5-year age groups from M35/W35 through to M85+/W85+.</p>
-      </details>
-
-      <details style="border-bottom:1px solid rgba(255,255,255,0.08);padding:1.2rem 0;">
+      <details style="padding:1.2rem 0;">
         <summary style="font-size:1rem;font-weight:600;color:#fff;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;">
           What events are on the programme?
           <span style="color:var(--gold);font-size:1.2rem;flex-shrink:0;margin-left:1rem;">+</span>
@@ -1176,20 +1228,14 @@
         <p style="font-size:0.9rem;color:var(--text-muted);margin-top:0.75rem;line-height:1.7;">EMACNS Galway 2028 includes road racing (10km and Half Marathon), Nordic walking, cross country relays (women's, men's and mixed), and race walking (10km and Half Marathon). All events are run by 5-year age group.</p>
       </details>
 
-      <details style="border-bottom:1px solid rgba(255,255,255,0.08);padding:1.2rem 0;">
-        <summary style="font-size:1rem;font-weight:600;color:#fff;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;">
-          Where exactly are the events held?
-          <span style="color:var(--gold);font-size:1.2rem;flex-shrink:0;margin-left:1rem;">+</span>
-        </summary>
-        <p style="font-size:0.9rem;color:var(--text-muted);margin-top:0.75rem;line-height:1.7;">All events are centred around Galway city. Exact venues are to be confirmed as planning progresses. Galway is located on the west coast of Ireland on the Wild Atlantic Way, approximately 2 hours from Dublin.</p>
-      </details>
+      <p style="font-size:0.72rem;font-weight:700;color:var(--gold);letter-spacing:0.1em;text-transform:uppercase;margin:2rem 0 0.5rem;">Eligibility & Registration</p>
 
       <details style="border-bottom:1px solid rgba(255,255,255,0.08);padding:1.2rem 0;">
         <summary style="font-size:1rem;font-weight:600;color:#fff;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;">
-          How do I get to Galway?
+          Who can compete?
           <span style="color:var(--gold);font-size:1.2rem;flex-shrink:0;margin-left:1rem;">+</span>
         </summary>
-        <p style="font-size:0.9rem;color:var(--text-muted);margin-top:0.75rem;line-height:1.7;">Galway is accessible by air via Ireland West Airport Knock (1 hour), Dublin Airport (2.5 hours by bus or train) or Shannon Airport (1 hour). Direct trains run from Dublin Heuston to Galway in approximately 2.5 hours. The city is also 2 hours from Dublin by car via the M6 motorway.</p>
+        <p style="font-size:0.9rem;color:var(--text-muted);margin-top:0.75rem;line-height:1.7;">Any masters athlete aged 35 or over representing a European Masters Athletics affiliated nation is eligible to compete. Athletes compete in 5-year age groups from M35/W35 through to M100+/W100+ — see the full age category table in the Events section above.</p>
       </details>
 
       <details style="border-bottom:1px solid rgba(255,255,255,0.08);padding:1.2rem 0;">
@@ -1199,6 +1245,34 @@
         </summary>
         <p style="font-size:0.9rem;color:var(--text-muted);margin-top:0.75rem;line-height:1.7;">Full athlete registration will open in 2027. Sign up to our Stay Informed list at the top of this page to be notified the moment registration opens.</p>
       </details>
+
+      <details id="privacy-faq" style="padding:1.2rem 0;">
+        <summary style="font-size:1rem;font-weight:600;color:#fff;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;">
+          How is my personal data used?
+          <span style="color:var(--gold);font-size:1.2rem;flex-shrink:0;margin-left:1rem;">+</span>
+        </summary>
+        <p style="font-size:0.9rem;color:var(--text-muted);margin-top:0.75rem;line-height:1.7;">When you sign up to stay informed, register as a volunteer, or register sponsorship interest, we collect your name and email address (and any other details you provide) solely to contact you about EMACNS Galway 2028 — event updates, volunteering and sponsorship coordination. We don't sell or share your data with third parties. Your information is held by Masters in Motion CLG until the event concludes or you ask to be removed, whichever is sooner. To update your details or unsubscribe at any time, email <a href="mailto:galway2028ie@gmail.com" style="color:var(--gold);">galway2028ie@gmail.com</a>.</p>
+      </details>
+
+      <p style="font-size:0.72rem;font-weight:700;color:var(--gold);letter-spacing:0.1em;text-transform:uppercase;margin:2rem 0 0.5rem;">Travel & Venue</p>
+
+      <details style="border-bottom:1px solid rgba(255,255,255,0.08);padding:1.2rem 0;">
+        <summary style="font-size:1rem;font-weight:600;color:#fff;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;">
+          Where exactly are the events held?
+          <span style="color:var(--gold);font-size:1.2rem;flex-shrink:0;margin-left:1rem;">+</span>
+        </summary>
+        <p style="font-size:0.9rem;color:var(--text-muted);margin-top:0.75rem;line-height:1.7;">All events are centred around Galway city. Exact venues are to be confirmed as planning progresses. Galway is located on the west coast of Ireland on the Wild Atlantic Way, approximately 2 hours from Dublin.</p>
+      </details>
+
+      <details style="padding:1.2rem 0;">
+        <summary style="font-size:1rem;font-weight:600;color:#fff;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;">
+          How do I get to Galway?
+          <span style="color:var(--gold);font-size:1.2rem;flex-shrink:0;margin-left:1rem;">+</span>
+        </summary>
+        <p style="font-size:0.9rem;color:var(--text-muted);margin-top:0.75rem;line-height:1.7;">Galway is accessible by air via Ireland West Airport Knock (1 hour), Dublin Airport (2.5 hours by bus or train) or Shannon Airport (1 hour). Direct trains run from Dublin Heuston to Galway in approximately 2.5 hours. The city is also 2 hours from Dublin by car via the M6 motorway.</p>
+      </details>
+
+      <p style="font-size:0.72rem;font-weight:700;color:var(--gold);letter-spacing:0.1em;text-transform:uppercase;margin:2rem 0 0.5rem;">Get Involved</p>
 
       <details style="border-bottom:1px solid rgba(255,255,255,0.08);padding:1.2rem 0;">
         <summary style="font-size:1rem;font-weight:600;color:#fff;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;">
@@ -1240,6 +1314,7 @@
         <h3 style="font-family:'Playfair Display',serif;font-size:1.2rem;color:#fff;margin-bottom:0.75rem;">Register as a Volunteer</h3>
         <p style="font-size:0.85rem;color:var(--text-muted);margin-bottom:1.5rem;">Fill in our quick volunteer form — takes less than a minute.</p>
         <a href="https://docs.google.com/forms/d/e/1FAIpQLScNbG8qFGe99zD9w_2xSg83W4lrbGyHqZid1xU5XfnWfYxbBw/viewform?usp=header" target="_blank" rel="noopener" style="display:inline-block;background:var(--green);color:#fff;font-weight:600;font-size:0.9rem;padding:0.85rem 1.8rem;border-radius:8px;transition:background 0.2s;" onmouseover="this.style.background='#2a8f52'" onmouseout="this.style.background='var(--green)'">Register as a Volunteer →</a>
+        <p style="font-size:0.72rem;color:var(--text-muted);margin-top:0.85rem;">We'll only use your details to contact you about Galway 2028 — see our <a href="#privacy-faq" style="color:var(--gold);">privacy note</a>.</p>
       </div>
     </div>
   </div>
@@ -1369,10 +1444,44 @@
         <div style="text-align:center;">
           <p style="font-size:0.82rem;color:var(--text-muted);margin-bottom:1rem;">Or register your interest online:</p>
           <a href="https://docs.google.com/forms/d/e/1FAIpQLSdn0pqIi4QjB39Q0wwDEzGtC__a62nuv9zURyJbj4VxZ4YRGg/viewform?usp=header" target="_blank" rel="noopener" style="display:inline-block;background:var(--gold);color:var(--navy);font-weight:700;font-size:0.88rem;padding:0.85rem 1.5rem;border-radius:8px;" onmouseover="this.style.background='#e8c97a'" onmouseout="this.style.background='var(--gold)'">Register Sponsorship Interest →</a>
+          <p style="font-size:0.72rem;color:var(--text-muted);margin-top:0.85rem;">We'll only use your details to contact you about Galway 2028 — see our <a href="#privacy-faq" style="color:var(--gold);">privacy note</a>.</p>
         </div>
       </div>
     </div>
 
+  </div>
+</section>
+
+<!-- ─── MERCHANDISE ────────────────────────────────────────── -->
+<section id="merch" style="background: var(--navy-mid); border-top: 1px solid rgba(201,168,76,0.12);">
+  <div class="section-inner">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center;" class="two-col-resp">
+      <div>
+        <p class="section-eyebrow">Show Your Colours</p>
+        <h2 class="section-title">Merchandise — Coming Soon</h2>
+        <p style="font-size:0.97rem;color:#c5bfb5;line-height:1.75;margin-bottom:1rem;">We're putting together an official Galway 2028 merchandise range, including t-shirts, tote bags, baseball caps and hoodies — with a nod to Galway and the West of Ireland in the designs.</p>
+        <p style="font-size:0.97rem;color:#c5bfb5;line-height:1.75;margin-bottom:1.5rem;">Sign up to our Stay Informed list to be the first to hear when the range launches.</p>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeVFTX2HdlMXMuJrkqbJ1hbRYyr-E2cQ_IKcRt9219nCpZoOA/viewform?usp=publish-editor" target="_blank" rel="noopener" style="display:inline-block;background:var(--green);color:#fff;font-weight:600;font-size:0.9rem;padding:0.85rem 1.8rem;border-radius:8px;transition:background 0.2s;" onmouseover="this.style.background='#2a8f52'" onmouseout="this.style.background='var(--green)'">Keep Me Informed →</a>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:1rem;">
+        <div style="background:var(--navy-card);border:1px solid rgba(201,168,76,0.12);border-radius:var(--radius);padding:1.5rem 1rem;text-align:center;">
+          <div style="font-size:1.8rem;margin-bottom:0.5rem;">👕</div>
+          <span style="font-size:0.82rem;color:var(--text-muted);">T-Shirts</span>
+        </div>
+        <div style="background:var(--navy-card);border:1px solid rgba(201,168,76,0.12);border-radius:var(--radius);padding:1.5rem 1rem;text-align:center;">
+          <div style="font-size:1.8rem;margin-bottom:0.5rem;">🧢</div>
+          <span style="font-size:0.82rem;color:var(--text-muted);">Baseball Caps</span>
+        </div>
+        <div style="background:var(--navy-card);border:1px solid rgba(201,168,76,0.12);border-radius:var(--radius);padding:1.5rem 1rem;text-align:center;">
+          <div style="font-size:1.8rem;margin-bottom:0.5rem;">👜</div>
+          <span style="font-size:0.82rem;color:var(--text-muted);">Tote Bags</span>
+        </div>
+        <div style="background:var(--navy-card);border:1px solid rgba(201,168,76,0.12);border-radius:var(--radius);padding:1.5rem 1rem;text-align:center;">
+          <div style="font-size:1.8rem;margin-bottom:0.5rem;">🧣</div>
+          <span style="font-size:0.82rem;color:var(--text-muted);">West of Ireland Designs</span>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -1383,16 +1492,23 @@
       <div class="brand-name">EMACNS Galway 2028</div>
       <div class="brand-domain">galway2028.ie</div>
     </div>
-    <div class="footer-links">
-      <a href="#about">About</a>
-      <a href="#events">Events</a>
-      <a href="#venue">Venue</a>
-      <a href="#travel">Travel</a>
-      <a href="#accommodation">Stay</a>
-      <a href="#volunteer">Volunteer</a>
-      <a href="#sponsors">Sponsors</a>
-      <a href="https://www.european-masters-athletics.org" target="_blank" rel="noopener">EMA</a>
-      <a href="mailto:info@galway2028.ie">Contact</a>
+    <div>
+      <p class="footer-links-label">Quick Links</p>
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#events">Events</a>
+        <a href="#venue">Venue</a>
+        <a href="#travel">Travel</a>
+        <a href="#accommodation">Stay</a>
+        <a href="#faq">FAQ</a>
+        <a href="#merch">Merch</a>
+        <a href="#volunteer">Volunteer</a>
+        <a href="#sponsors">Sponsors</a>
+        <a href="news.html">News</a>
+        <a href="https://www.european-masters-athletics.org" target="_blank" rel="noopener">EMA</a>
+        <a href="#privacy-faq">Privacy</a>
+        <a href="mailto:info@galway2028.ie">Contact</a>
+      </div>
     </div>
     <div class="footer-social">
       <!-- Facebook -->
