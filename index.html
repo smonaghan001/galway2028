@@ -1105,6 +1105,9 @@
         <p>Galway city — venue TBD. Close to hotels, restaurants and the famous Latin Quarter.</p>
         <h4>Course Certification</h4>
         <p>All event courses will meet EMA technical specifications. Full details to be confirmed.</p>
+        <h4>Weather</h4>
+        <p id="galway-weather-now">Loading today's Galway weather…</p>
+        <p style="margin-top:0.4rem;">Typical in May: highs around 16°C, lows around 8°C, roughly 6 hours of sunshine a day and occasional showers — pack layers and a light rain jacket.</p>
       </div>
     </div>
   </div>
@@ -1547,6 +1550,31 @@
   tick();
   setInterval(tick, 1000);
 
+  /* Live weather — Galway, via Open-Meteo (no API key required) */
+  (function() {
+    const el = document.getElementById('galway-weather-now');
+    if (!el) return;
+    const codeMap = {
+      0:'clear sky', 1:'mainly clear', 2:'partly cloudy', 3:'overcast',
+      45:'foggy', 48:'foggy',
+      51:'light drizzle', 53:'drizzle', 55:'heavy drizzle',
+      61:'light rain', 63:'rain', 65:'heavy rain',
+      71:'light snow', 73:'snow', 75:'heavy snow',
+      80:'rain showers', 81:'rain showers', 82:'heavy rain showers',
+      95:'thunderstorm', 96:'thunderstorm', 99:'thunderstorm'
+    };
+    fetch('https://api.open-meteo.com/v1/forecast?latitude=53.27&longitude=-9.05&current_weather=true')
+      .then(r => r.json())
+      .then(data => {
+        const cw = data && data.current_weather;
+        if (!cw) throw new Error('no data');
+        const desc = codeMap[cw.weathercode] || 'conditions unavailable';
+        el.textContent = `Weather today in Galway: ${Math.round(cw.temperature)}°C, ${desc}.`;
+      })
+      .catch(() => {
+        el.textContent = "Weather today in Galway: live conditions unavailable right now — see typical May weather below.";
+      });
+  })();
 </script>
 
 <!-- ─── COOKIE CONSENT ───────────────────────────────────────── -->
