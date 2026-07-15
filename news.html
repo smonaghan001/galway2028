@@ -258,6 +258,39 @@
 
       <!-- ─── ADD NEW POSTS ABOVE THIS LINE ─── -->
 
+      <!-- POST: Volunteer with Galway 2028 -->
+      <div class="post-card" onclick="openPost('volunteer-with-galway-2028')">
+        <div class="post-card-img-placeholder"><span>🤝</span></div>
+        <div class="post-card-body">
+          <p class="post-date">20 July 2026</p>
+          <h2 class="post-title">Be Part of the Team — Volunteer with Galway 2028</h2>
+          <p class="post-summary">Hosting 1,000+ masters athletes and 3,000 visitors takes a village. We're starting to build our volunteer community early — here's how to get involved.</p>
+          <span class="post-read-more">Read more →</span>
+        </div>
+      </div>
+
+      <!-- POST: 22 Months to Go -->
+      <div class="post-card" onclick="openPost('22-months-to-go')">
+        <div class="post-card-img-placeholder"><span>🗓️</span></div>
+        <div class="post-card-body">
+          <p class="post-date">17 July 2026</p>
+          <h2 class="post-title">22 Months to Go — Building the Foundations</h2>
+          <p class="post-summary">Behind the scenes, the groundwork for May 2028 continues — plus a look at what's happening elsewhere on the European masters calendar this summer.</p>
+          <span class="post-read-more">Read more →</span>
+        </div>
+      </div>
+
+      <!-- POST: Irish Masters Are on a Roll -->
+      <div class="post-card" onclick="openPost('irish-masters-summer-2026')">
+        <div class="post-card-img-placeholder"><span>🥇</span></div>
+        <div class="post-card-body">
+          <p class="post-date">14 July 2026</p>
+          <h2 class="post-title">Irish Masters Are on a Roll</h2>
+          <p class="post-summary">From the mountains of Czechia to the streets of Catania, Irish masters athletes have had a summer to remember — a great sign of things to come for Galway 2028.</p>
+          <span class="post-read-more">Read more →</span>
+        </div>
+      </div>
+
       <!-- POST: Galway 2028 — In the Press -->
       <div class="post-card" onclick="openPost('in-the-press')">
         <img class="post-card-img" src="galway28-in-the-news-1b.png" alt="Galway 2028 in the press — media coverage roundup" />
@@ -307,6 +340,50 @@
 </section>
 
 <!-- POST MODALS -->
+
+<!-- Modal: Volunteer with Galway 2028 -->
+<div class="modal-overlay" id="modal-volunteer-with-galway-2028" onclick="closeModal(event, 'volunteer-with-galway-2028')">
+  <div class="modal">
+    <button class="modal-close" onclick="closePost('volunteer-with-galway-2028')">✕</button>
+    <p class="modal-date">20 July 2026</p>
+    <h2 class="modal-title">Be Part of the Team — Volunteer with Galway 2028</h2>
+    <div class="modal-content">
+      <p>Hosting 1,000+ masters athletes and around 3,000 visitors in May 2028 takes a village — and we're starting to build our volunteer community early, well ahead of race weekend itself.</p>
+      <p>There's a role for everyone, whatever your experience: race day marshalling, athlete welcome and registration, event logistics, hospitality, and much more. No athletics background required — just enthusiasm and a willingness to help make Europe's masters athletes feel at home in Galway.</p>
+      <p>Volunteering is also a brilliant way to be part of something genuinely historic for the city — a front-row seat to an international championship, and the chance to meet athletes and visitors from across Europe.</p>
+      <p>Detailed volunteer roles and rotas will take shape as planning progresses, but we want to hear from you now. Register your interest via galway2028.ie, and we'll keep you posted every step of the way as roles are confirmed.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Modal: 22 Months to Go -->
+<div class="modal-overlay" id="modal-22-months-to-go" onclick="closeModal(event, '22-months-to-go')">
+  <div class="modal">
+    <button class="modal-close" onclick="closePost('22-months-to-go')">✕</button>
+    <p class="modal-date">17 July 2026</p>
+    <h2 class="modal-title">22 Months to Go — Building the Foundations</h2>
+    <div class="modal-content">
+      <p>We're now 22 months out from May 2028, and while the public-facing announcements have been coming thick and fast, the near-term focus behind the scenes is firmly on foundations. The organising committee is working through the structures and commitments that need to be locked down before venues, courses and registration can be confirmed publicly. None of it is especially glamorous, but it's exactly the groundwork that has to happen early so that everything announced later stands on solid ground.</p>
+      <p>Elsewhere on the masters athletics calendar this summer, registrations are open right now for the European Masters Off-Road Running Championships in Râșnov, Romania (10–13 September) — well worth a look if you fancy some off-road racing before Galway's turn comes around. The registration deadline is 10 August.</p>
+      <p>For Galway 2028 itself, athlete registration opens in 2027. For now, keep May 2028 marked in the diary and follow along here for the next milestone — venue and course announcements will follow as planning progresses.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Modal: Irish Masters Are on a Roll -->
+<div class="modal-overlay" id="modal-irish-masters-summer-2026" onclick="closeModal(event, 'irish-masters-summer-2026')">
+  <div class="modal">
+    <button class="modal-close" onclick="closePost('irish-masters-summer-2026')">✕</button>
+    <p class="modal-date">14 July 2026</p>
+    <h2 class="modal-title">Irish Masters Are on a Roll</h2>
+    <div class="modal-content">
+      <p>It's been a summer to remember for Irish masters athletics — and every result is another reason to be excited about what's coming to Galway in May 2028.</p>
+      <p>At the World Masters Mountain Running Championships in Janské Lázně, Czech Republic (26–28 June), Irish teams struck gold twice: John Kinsella, Eoin Flynn and Ian Conroy took the M45 uphill title, while Carmel MacDomhnaill was part of the winning W80 uphill team. Northern Ireland's Springwell Running Club also had a brilliant championship, with Carolyn Crawford, Kate O'Loan, Sarah Milligan and Adele Tomb bringing home four medals between them, competing in searing 36°C heat on the slopes of Černá hora.</p>
+      <p>Earlier in the summer, Mayo AC's Paraic Sweeney won gold in the M75 10km road race at EMACNS Catania 2026 — the very championship Galway will host next, in its 21st edition.</p>
+      <p>Different disciplines, different countries, same message: Irish masters athletics has real depth across the age categories. We can't wait to see Irish athletes competing on home soil when the championship arrives in Galway in under two years. Well done to everyone who represented Ireland this summer — if you have a story of your own, tag us, we'd love to help tell it.</p>
+    </div>
+  </div>
+</div>
 
 <!-- Modal: In the Press -->
 <div class="modal-overlay" id="modal-in-the-press" onclick="closeModal(event, 'in-the-press')">
