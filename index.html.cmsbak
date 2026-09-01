@@ -1,0 +1,1515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EMACNS Galway 2028 — European Masters Athletics Championships Non-Stadia</title>
+  <meta name="description" content="EMACNS Galway 2028 — the European Masters Athletics Championships Non-Stadia comes to Galway, Ireland in May 2028. Road racing, Nordic walking, cross country relays and race walking for masters athletes aged 35+ from across Europe." />
+
+  <!-- ─── CANONICAL ─────────────────────────────────────── -->
+  <link rel="canonical" href="https://www.galway2028.ie/" />
+
+  <!-- ─── OPEN GRAPH ────────────────────────────────────── -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.galway2028.ie/" />
+  <meta property="og:title" content="EMACNS Galway 2028 — European Masters Athletics Championships" />
+  <meta property="og:description" content="The European Masters Athletics Championships Non-Stadia comes to Galway, Ireland in May 2028. Road racing, Nordic walking, cross country relays and race walking for masters athletes aged 35+ from across Europe." />
+  <meta property="og:image" content="https://www.galway2028.ie/medal3_bg.png" />
+  <meta property="og:locale" content="en_IE" />
+  <meta property="og:site_name" content="EMACNS Galway 2028" />
+
+  <!-- ─── TWITTER CARD ──────────────────────────────────── -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="EMACNS Galway 2028 — European Masters Athletics Championships" />
+  <meta name="twitter:description" content="The European Masters Athletics Championships Non-Stadia comes to Galway, Ireland in May 2028." />
+  <meta name="twitter:image" content="https://www.galway2028.ie/medal3_bg.png" />
+
+  <!-- ─── JSON-LD STRUCTURED DATA ──────────────────────── -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SportsEvent",
+        "@id": "https://www.galway2028.ie/#event",
+        "name": "EMACNS Galway 2028 — European Masters Athletics Championships Non-Stadia",
+        "alternateName": ["EMACNS 2028", "European Masters Athletics Championships Non-Stadia 2028"],
+        "description": "The European Masters Athletics Championships Non-Stadia (EMACNS) 2028 is held in Galway, Ireland. Masters athletes aged 35 and over from across Europe compete in road racing, Nordic walking, cross country relays and race walking.",
+        "url": "https://www.galway2028.ie/",
+        "startDate": "2028-05-01",
+        "endDate": "2028-05-31",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "location": {
+          "@type": "Place",
+          "name": "Galway City",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Galway",
+            "addressCountry": "IE"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 53.2707,
+            "longitude": -9.0568
+          }
+        },
+        "organizer": {
+          "@type": "SportsOrganization",
+          "name": "European Masters Athletics",
+          "url": "https://www.european-masters-athletics.org"
+        },
+        "audience": {
+          "@type": "Audience",
+          "audienceType": "Masters athletes aged 35 and over"
+        },
+        "sport": "Athletics",
+        "image": "https://www.galway2028.ie/medal3_bg.png",
+        "inLanguage": "en",
+        "isAccessibleForFree": false,
+        "typicalAgeRange": "35-"
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.galway2028.ie/#website",
+        "url": "https://www.galway2028.ie/",
+        "name": "EMACNS Galway 2028",
+        "description": "Official website for the European Masters Athletics Championships Non-Stadia, Galway 2028",
+        "inLanguage": "en-IE"
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.galway2028.ie/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is EMACNS Galway 2028?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "EMACNS Galway 2028 is the European Masters Athletics Championships Non-Stadia, held in Galway, Ireland in May 2028. It is a major international athletics competition for masters athletes aged 35 and over, featuring road racing, Nordic walking, cross country relays and race walking."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "When is EMACNS Galway 2028?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "EMACNS Galway 2028 takes place in May 2028 in Galway, Ireland."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Where is EMACNS 2028 held?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The championships are held in Galway city, Ireland. The exact venue is to be confirmed. Galway is located on the west coast of Ireland on the Wild Atlantic Way."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What events are at EMACNS Galway 2028?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "EMACNS Galway 2028 includes road racing (10km and Half Marathon), Nordic walking, cross country relays (women's, men's and mixed), and race walking (10km and Half Marathon). All events are run by 5-year age group from M/W35 to M/W85+."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who can compete at EMACNS Galway 2028?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Any masters athlete aged 35 or over representing a European Masters Athletics affiliated nation is eligible to compete. Athletes compete in 5-year age groups from M35/W35 through to M85+/W85+."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I get to Galway for EMACNS 2028?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Galway is accessible by air via Ireland West Airport Knock (1 hour), Dublin Airport (2.5 hours by bus or train) or Shannon Airport (1 hour). Direct trains run from Dublin to Galway in approximately 2.5 hours."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How can I volunteer at EMACNS Galway 2028?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Volunteer registrations are open at galway2028.ie. We need local volunteers to help with marshalling, registration, athlete liaison and results. Visit the Volunteer section of the website to register your interest."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How can I sponsor EMACNS Galway 2028?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "EMACNS Galway 2028 is seeking sponsors at Title, Gold Partner and Community Supporter levels. Visit the Sponsors section at galway2028.ie to register your interest and receive a sponsorship prospectus."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QJJYYE20G2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-QJJYYE20G2');
+  </script>
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet" />
+  <style>
+    /* ─── RESET ─────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #0a0e1a;
+      color: #e8e4dc;
+      line-height: 1.6;
+    }
+    a { color: inherit; text-decoration: none; }
+    img { display: block; max-width: 100%; }
+
+    /* ─── CSS VARIABLES ──────────────────────────────────── */
+    :root {
+      --gold: #c9a84c;
+      --gold-light: #e8c97a;
+      --gold-dim: rgba(201,168,76,0.18);
+      --green: #1a6b3c;
+      --green-light: #2a8f52;
+      --navy: #0a0e1a;
+      --navy-mid: #111827;
+      --navy-card: #161d2e;
+      --text: #e8e4dc;
+      --text-muted: #9ca3af;
+      --radius: 12px;
+    }
+
+    /* ─── NAV ────────────────────────────────────────────── */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 2rem;
+      height: 64px;
+      background: rgba(10,14,26,0.88);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(201,168,76,0.15);
+    }
+    .nav-brand {
+      display: flex;
+      flex-direction: column;
+      line-height: 1.1;
+    }
+    .nav-brand .event-name {
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--gold-light);
+      letter-spacing: 0.04em;
+    }
+    .nav-brand .event-sub {
+      font-size: 0.65rem;
+      color: var(--text-muted);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+    .nav-links {
+      display: flex;
+      gap: 1.75rem;
+      align-items: center;
+    }
+    .nav-links a {
+      font-size: 0.82rem;
+      font-weight: 500;
+      color: var(--text-muted);
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--gold-light); }
+    .nav-cta {
+      background: var(--gold);
+      color: var(--navy) !important;
+      padding: 0.45rem 1rem;
+      border-radius: 6px;
+      font-weight: 600 !important;
+      transition: background 0.2s !important;
+    }
+    .nav-cta:hover { background: var(--gold-light) !important; }
+
+    /* ─── HERO ───────────────────────────────────────────── */
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      position: relative;
+      overflow: hidden;
+      padding: 7rem 2rem 5rem;
+    }
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 80% 70% at 70% 50%, rgba(26,107,60,0.18) 0%, transparent 60%),
+                  radial-gradient(ellipse 60% 60% at 30% 60%, rgba(201,168,76,0.08) 0%, transparent 50%),
+                  linear-gradient(160deg, #0d1221 0%, #0a0e1a 50%, #0c1520 100%);
+    }
+    /* Celtic pattern overlay */
+    .hero-bg::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='rgba(201,168,76,0.04)' stroke-width='1'%3E%3Ccircle cx='30' cy='30' r='20'/%3E%3Ccircle cx='30' cy='30' r='12'/%3E%3Cline x1='10' y1='30' x2='50' y2='30'/%3E%3Cline x1='30' y1='10' x2='30' y2='50'/%3E%3C/g%3E%3C/svg%3E");
+      opacity: 0.5;
+    }
+
+    /* Medal — replace the <img> src with your actual medal photo */
+    .hero-medal {
+      position: absolute;
+      right: -4%;
+      top: 50%;
+      transform: translateY(-50%);
+      width: min(52vw, 680px);
+      opacity: 0.22;
+      pointer-events: none;
+      filter: sepia(0.3) saturate(1.4) drop-shadow(0 0 60px rgba(201,168,76,0.35));
+    }
+    /* Medal as atmospheric hero background */
+    .hero-medal-wrap {
+      position: absolute;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      width: 55%;
+      pointer-events: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .hero-medal-wrap::after {
+      content: '';
+      position: absolute;
+      inset: -2px;
+      background:
+        linear-gradient(to right, rgba(10,14,26,1) 0%, rgba(10,14,26,0.6) 25%, transparent 55%),
+        linear-gradient(to left, rgba(10,14,26,0.85) 0%, transparent 30%),
+        linear-gradient(to bottom, rgba(10,14,26,0.85) 0%, transparent 25%),
+        linear-gradient(to top, rgba(10,14,26,0.85) 0%, transparent 25%);
+      z-index: 1;
+    }
+    .hero-medal-wrap img {
+      width: min(340px, 68%);
+      opacity: 0.55;
+      filter: saturate(1.3) drop-shadow(0 0 60px rgba(201,168,76,0.5));
+      position: relative;
+      z-index: 0;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      max-width: 640px;
+    }
+    .hero-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--gold);
+      background: var(--gold-dim);
+      border: 1px solid rgba(201,168,76,0.25);
+      padding: 0.35rem 0.9rem;
+      border-radius: 100px;
+      margin-bottom: 1.5rem;
+    }
+    .hero-eyebrow span { color: var(--text-muted); }
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(2.4rem, 5.5vw, 4rem);
+      font-weight: 700;
+      line-height: 1.12;
+      color: #fff;
+      margin-bottom: 0.4rem;
+    }
+    h1 em {
+      font-style: italic;
+      color: var(--gold-light);
+    }
+    .hero-location {
+      font-size: 1rem;
+      color: var(--text-muted);
+      margin-bottom: 1.4rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .hero-location::before {
+      content: '';
+      display: inline-block;
+      width: 18px; height: 1px;
+      background: var(--gold);
+      flex-shrink: 0;
+    }
+    .hero-tagline {
+      font-size: 1.1rem;
+      color: #c5bfb5;
+      margin-bottom: 2.2rem;
+      max-width: 480px;
+    }
+    .hero-actions {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin-bottom: 3rem;
+    }
+    .btn-primary {
+      background: var(--gold);
+      color: var(--navy);
+      font-weight: 700;
+      font-size: 0.9rem;
+      letter-spacing: 0.04em;
+      padding: 0.85rem 2rem;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+      transition: background 0.2s, transform 0.15s;
+      display: inline-block;
+    }
+    .btn-primary:hover { background: var(--gold-light); transform: translateY(-1px); }
+    .btn-secondary {
+      background: transparent;
+      color: var(--text);
+      font-weight: 600;
+      font-size: 0.9rem;
+      padding: 0.85rem 2rem;
+      border-radius: 8px;
+      border: 1px solid rgba(255,255,255,0.18);
+      cursor: pointer;
+      transition: border-color 0.2s, color 0.2s;
+      display: inline-block;
+    }
+    .btn-secondary:hover { border-color: var(--gold); color: var(--gold-light); }
+
+    /* Countdown */
+    .countdown {
+      display: flex;
+      gap: 1.2rem;
+      flex-wrap: wrap;
+    }
+    .cd-unit {
+      text-align: center;
+      min-width: 58px;
+    }
+    .cd-num {
+      display: block;
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--gold-light);
+      line-height: 1;
+    }
+    .cd-label {
+      display: block;
+      font-size: 0.62rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-top: 0.25rem;
+    }
+    .cd-sep {
+      font-size: 2rem;
+      color: rgba(201,168,76,0.3);
+      align-self: flex-start;
+      padding-top: 0.1rem;
+    }
+
+    /* Domain badge */
+    .domain-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.1);
+      padding: 0.3rem 0.75rem;
+      border-radius: 100px;
+      margin-top: 1.5rem;
+    }
+    .domain-badge .dot {
+      width: 6px; height: 6px;
+      border-radius: 50%;
+      background: var(--green-light);
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.4; }
+    }
+
+    /* ─── NOTIFY BANNER ──────────────────────────────────── */
+    .notify-bar {
+      background: var(--navy-mid);
+      border-top: 1px solid rgba(201,168,76,0.12);
+      border-bottom: 1px solid rgba(201,168,76,0.12);
+      padding: 2.5rem 2rem;
+    }
+    .notify-inner {
+      max-width: 900px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+    .notify-text h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.3rem;
+      color: #fff;
+      margin-bottom: 0.25rem;
+    }
+    .notify-text p { font-size: 0.88rem; color: var(--text-muted); }
+    .notify-form {
+      display: flex;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+    }
+    .notify-form input {
+      background: rgba(255,255,255,0.07);
+      border: 1px solid rgba(255,255,255,0.15);
+      border-radius: 8px;
+      padding: 0.7rem 1rem;
+      color: var(--text);
+      font-size: 0.88rem;
+      font-family: inherit;
+      min-width: 220px;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+    .notify-form input:focus { border-color: var(--gold); }
+    .notify-form input::placeholder { color: var(--text-muted); }
+    .notify-form button {
+      background: var(--green);
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      padding: 0.7rem 1.4rem;
+      font-size: 0.88rem;
+      font-weight: 600;
+      font-family: inherit;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .notify-form button:hover { background: var(--green-light); }
+
+    /* ─── SECTIONS ───────────────────────────────────────── */
+    section { padding: 5rem 2rem; }
+    .section-inner { max-width: 1100px; margin: 0 auto; }
+    .section-eyebrow {
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 0.75rem;
+    }
+    .section-title {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+      color: #fff;
+      margin-bottom: 1rem;
+    }
+    .section-lead {
+      font-size: 1rem;
+      color: var(--text-muted);
+      max-width: 620px;
+      margin-bottom: 3rem;
+    }
+
+    /* ─── ABOUT ──────────────────────────────────────────── */
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+      align-items: start;
+    }
+    .about-stats {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.25rem;
+    }
+    .stat-card {
+      background: var(--navy-card);
+      border: 1px solid rgba(201,168,76,0.12);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+    }
+    .stat-num {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.2rem;
+      font-weight: 700;
+      color: var(--gold-light);
+      line-height: 1;
+      display: block;
+      margin-bottom: 0.3rem;
+    }
+    .stat-label { font-size: 0.8rem; color: var(--text-muted); }
+    .about-body p { font-size: 0.97rem; color: #c5bfb5; margin-bottom: 1rem; line-height: 1.75; }
+
+    /* ─── EVENTS ─────────────────────────────────────────── */
+    .events-section { background: var(--navy-mid); }
+    .events-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 1.25rem;
+    }
+    .event-card {
+      background: var(--navy-card);
+      border: 1px solid rgba(255,255,255,0.07);
+      border-radius: var(--radius);
+      padding: 1.6rem;
+      transition: border-color 0.2s, transform 0.2s;
+    }
+    .event-card:hover { border-color: var(--gold); transform: translateY(-3px); }
+    .event-icon {
+      width: 44px; height: 44px;
+      background: var(--gold-dim);
+      border-radius: 10px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
+    }
+    .event-card h4 { font-size: 1rem; font-weight: 600; color: #fff; margin-bottom: 0.4rem; }
+    .event-card p { font-size: 0.83rem; color: var(--text-muted); line-height: 1.55; }
+
+    /* ─── VENUE ──────────────────────────────────────────── */
+    .venue-grid {
+      display: grid;
+      grid-template-columns: 1.1fr 1fr;
+      gap: 4rem;
+      align-items: start;
+    }
+    .venue-map {
+      background: var(--navy-card);
+      border: 1px solid rgba(201,168,76,0.12);
+      border-radius: var(--radius);
+      overflow: hidden;
+      aspect-ratio: 4/3;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--text-muted);
+      font-size: 0.88rem;
+      position: relative;
+    }
+    .venue-map iframe {
+      position: absolute; inset: 0;
+      width: 100%; height: 100%;
+      border: none;
+    }
+    .venue-details h4 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--gold-light);
+      margin-bottom: 0.3rem;
+      margin-top: 1.4rem;
+    }
+    .venue-details h4:first-child { margin-top: 0; }
+    .venue-details p { font-size: 0.9rem; color: var(--text-muted); line-height: 1.65; }
+
+    /* ─── TRAVEL ─────────────────────────────────────────── */
+    .travel-section { background: var(--navy-mid); }
+    .travel-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 1.25rem;
+    }
+    .travel-card {
+      background: var(--navy-card);
+      border: 1px solid rgba(255,255,255,0.07);
+      border-radius: var(--radius);
+      padding: 1.8rem;
+    }
+    .travel-card .icon { font-size: 2rem; margin-bottom: 0.9rem; }
+    .travel-card h4 { font-size: 1rem; font-weight: 600; color: #fff; margin-bottom: 0.5rem; }
+    .travel-card p { font-size: 0.85rem; color: var(--text-muted); line-height: 1.6; }
+    .travel-card a { color: var(--gold); text-decoration: underline; text-underline-offset: 3px; }
+
+    /* ─── ACCOMMODATION ──────────────────────────────────── */
+    .accom-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1.25rem;
+    }
+    .accom-card {
+      background: var(--navy-card);
+      border: 1px solid rgba(255,255,255,0.07);
+      border-radius: var(--radius);
+      padding: 1.8rem;
+      transition: border-color 0.2s;
+    }
+    .accom-card:hover { border-color: var(--gold); }
+    .accom-tag {
+      display: inline-block;
+      font-size: 0.65rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--gold);
+      background: var(--gold-dim);
+      padding: 0.25rem 0.65rem;
+      border-radius: 100px;
+      margin-bottom: 0.8rem;
+    }
+    .accom-card h4 { font-size: 1rem; font-weight: 600; color: #fff; margin-bottom: 0.4rem; }
+    .accom-card p { font-size: 0.84rem; color: var(--text-muted); line-height: 1.6; }
+
+    /* ─── EMA SECTION ────────────────────────────────────── */
+    .ema-section { background: var(--navy-mid); }
+    .ema-inner {
+      display: flex;
+      align-items: center;
+      gap: 4rem;
+      flex-wrap: wrap;
+    }
+    .ema-logo-block {
+      flex-shrink: 0;
+      width: 180px;
+      background: var(--navy-card);
+      border: 1px solid rgba(201,168,76,0.15);
+      border-radius: var(--radius);
+      padding: 2rem;
+      text-align: center;
+    }
+    .ema-logo-text {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.6rem;
+      color: var(--gold-light);
+      font-weight: 700;
+      display: block;
+    }
+    .ema-logo-sub {
+      font-size: 0.6rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      display: block;
+      margin-top: 0.3rem;
+    }
+    .ema-text { flex: 1; min-width: 260px; }
+    .ema-text p { font-size: 0.97rem; color: #c5bfb5; line-height: 1.75; margin-bottom: 1rem; }
+
+    /* ─── CONTACT / REGISTER ─────────────────────────────── */
+    .register-section {
+      background: linear-gradient(135deg, rgba(26,107,60,0.15) 0%, rgba(201,168,76,0.08) 100%);
+      border-top: 1px solid rgba(201,168,76,0.12);
+      text-align: center;
+    }
+    .register-section .section-title { margin-bottom: 0.75rem; }
+    .register-section .section-lead { margin: 0 auto 2.5rem; }
+    .register-actions { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+    .contact-list {
+      margin-top: 2.5rem;
+      display: flex;
+      gap: 2rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .contact-list a {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      transition: color 0.2s;
+    }
+    .contact-list a:hover { color: var(--gold-light); }
+
+    /* ─── FOOTER ─────────────────────────────────────────── */
+    footer {
+      background: var(--navy);
+      border-top: 1px solid rgba(255,255,255,0.06);
+      padding: 2.5rem 2rem;
+    }
+    .footer-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .footer-brand .brand-name { font-weight: 700; color: var(--gold-light); font-size: 0.95rem; }
+    .footer-brand .brand-domain { font-size: 0.75rem; color: var(--text-muted); }
+    .footer-links { display: flex; gap: 1.5rem; flex-wrap: wrap; }
+    .footer-links a { font-size: 0.8rem; color: var(--text-muted); transition: color 0.2s; }
+    .footer-links a:hover { color: var(--gold-light); }
+    .footer-copy { font-size: 0.75rem; color: rgba(156,163,175,0.5); }
+
+    /* ─── HAMBURGER BUTTON ───────────────────────────────── */
+    .nav-hamburger {
+      display: none;
+      flex-direction: column;
+      justify-content: center;
+      gap: 5px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 4px 6px;
+      z-index: 110;
+    }
+    .nav-hamburger span {
+      display: block;
+      width: 24px;
+      height: 2px;
+      background: var(--gold-light);
+      border-radius: 2px;
+      transition: transform 0.25s, opacity 0.25s;
+    }
+    .nav-hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .nav-hamburger.open span:nth-child(2) { opacity: 0; }
+    .nav-hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+    /* ─── MOBILE DRAWER ──────────────────────────────────── */
+    .mobile-menu {
+      display: none;
+      position: fixed;
+      top: 64px; left: 0; right: 0;
+      background: rgba(10,14,26,0.98);
+      border-bottom: 1px solid rgba(201,168,76,0.2);
+      z-index: 99;
+      flex-direction: column;
+      padding: 1rem 2rem 1.5rem;
+      gap: 0.25rem;
+    }
+    .mobile-menu.open { display: flex; }
+    .mobile-menu a {
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: var(--text-muted);
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      padding: 0.65rem 0;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+      transition: color 0.2s;
+    }
+    .mobile-menu a:last-child { border-bottom: none; }
+    .mobile-menu a:hover { color: var(--gold-light); }
+    .mobile-menu .nav-cta {
+      margin-top: 0.75rem;
+      background: var(--gold);
+      color: var(--navy) !important;
+      border-radius: 6px;
+      padding: 0.65rem 1.25rem;
+      text-align: center;
+      font-weight: 700 !important;
+      border-bottom: none !important;
+    }
+    .mobile-menu .nav-cta:hover { background: var(--gold-light) !important; }
+
+    /* ─── RESPONSIVE ─────────────────────────────────────── */
+    @media (max-width: 800px) {
+      .nav-links { display: none; }
+      .nav-hamburger { display: flex; }
+      .about-grid, .venue-grid { grid-template-columns: 1fr; gap: 2rem; }
+      .ema-inner { gap: 2rem; }
+      .hero-medal-wrap { width: 60%; opacity: 0.4; }
+    }
+    @media (max-width: 520px) {
+      .hero-medal-wrap { display: none; }
+      .about-stats { grid-template-columns: 1fr 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ─── NAVIGATION ──────────────────────────────────────── -->
+<nav>
+  <div class="nav-brand">
+    <span class="event-name">EMACNS Galway 2028</span>
+    <span class="event-sub">galway2028.ie · European Masters Athletics</span>
+  </div>
+  <div class="nav-links">
+    <a href="#about">About</a>
+    <a href="#events">Events</a>
+    <a href="#venue">Venue</a>
+    <a href="#travel">Travel</a>
+    <a href="#accommodation">Stay</a>
+    <a href="news.html">News</a>
+    <a href="#faq">FAQ</a>
+    <a href="#volunteer">Volunteer</a>
+    <a href="#sponsors">Sponsors</a>
+    <a href="#volunteer" class="nav-cta">Get Involved</a>
+  </div>
+  <button class="nav-hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- ─── MOBILE MENU DRAWER ──────────────────────────────── -->
+<div class="mobile-menu" id="mobile-menu">
+  <a href="#about" onclick="closeMobileMenu()">About</a>
+  <a href="#events" onclick="closeMobileMenu()">Events</a>
+  <a href="#venue" onclick="closeMobileMenu()">Venue</a>
+  <a href="#travel" onclick="closeMobileMenu()">Travel</a>
+  <a href="#accommodation" onclick="closeMobileMenu()">Stay</a>
+  <a href="news.html">News</a>
+  <a href="#faq" onclick="closeMobileMenu()">FAQ</a>
+  <a href="#volunteer" onclick="closeMobileMenu()">Volunteer</a>
+  <a href="#sponsors" onclick="closeMobileMenu()">Sponsors</a>
+  <a href="#volunteer" class="nav-cta" onclick="closeMobileMenu()">Get Involved</a>
+</div>
+
+<!-- ─── HERO ─────────────────────────────────────────────── -->
+<section class="hero">
+  <div class="hero-bg"></div>
+
+  <!--
+    MEDAL IMAGE — Replace the SVG below with your real medal photo:
+    <img src="medal.jpg" alt="EMACNS Galway 2028 Medal" />
+    Place medal.jpg in the same folder as index.html.
+  -->
+  <div class="hero-medal-wrap">
+    <img src="medal3_bg.png" alt="EMACNS Galway 2028 Medal" />
+  </div>
+
+  <div class="hero-content">
+    <div class="hero-eyebrow">
+      🏅 <span>European Masters Athletics Championships</span> · Non-Stadia
+    </div>
+    <h1>Where Champions<br/>Come to <em>Galway</em></h1>
+    <p class="hero-location">Galway, Ireland — May 2028</p>
+    <p class="hero-tagline">
+      Masters athletes from across Europe compete on the wild Atlantic coast — nordic walking, road racing, cross country relays and race walking in one of Ireland's most iconic cities.
+    </p>
+    <div class="hero-actions">
+      <a href="#volunteer" class="btn-primary">Get Involved</a>
+      <a href="#events" class="btn-secondary">View Events</a>
+    </div>
+    <div class="countdown" id="countdown">
+      <div class="cd-unit"><span class="cd-num" id="cd-days">—</span><span class="cd-label">Days</span></div>
+      <div class="cd-sep">:</div>
+      <div class="cd-unit"><span class="cd-num" id="cd-hrs">—</span><span class="cd-label">Hours</span></div>
+      <div class="cd-sep">:</div>
+      <div class="cd-unit"><span class="cd-num" id="cd-min">—</span><span class="cd-label">Minutes</span></div>
+      <div class="cd-sep">:</div>
+      <div class="cd-unit"><span class="cd-num" id="cd-sec">—</span><span class="cd-label">Seconds</span></div>
+    </div>
+    <div class="domain-badge"><span class="dot"></span> galway2028.ie</div>
+  </div>
+</section>
+
+<!-- ─── NOTIFY BAR ─────────────────────────────────────────── -->
+<div class="notify-bar">
+  <div class="notify-inner">
+    <div class="notify-text">
+      <h3>Stay informed</h3>
+      <p>Be the first to hear about registration, schedule and athlete updates.</p>
+    </div>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeVFTX2HdlMXMuJrkqbJ1hbRYyr-E2cQ_IKcRt9219nCpZoOA/viewform?usp=publish-editor" target="_blank" rel="noopener" style="display:inline-block;background:var(--green);color:#fff;font-weight:600;font-size:0.88rem;padding:0.7rem 1.4rem;border-radius:8px;transition:background 0.2s;" onmouseover="this.style.background='#2a8f52'" onmouseout="this.style.background='var(--green)'">Keep Me Informed →</a>
+  </div>
+</div>
+
+<!-- ─── ABOUT ──────────────────────────────────────────────── -->
+<section id="about">
+  <div class="section-inner">
+    <div class="about-grid">
+      <div class="about-body">
+        <p class="section-eyebrow">About the Championships</p>
+        <h2 class="section-title">Masters Athletics at its Finest</h2>
+        <div style="margin-bottom:1rem;">
+          <img src="image2.png" alt="European Masters Athletics" style="height:48px;width:auto;object-fit:contain;opacity:0.9;" />
+        </div>
+        <p>The European Masters Athletics Championships — Non-Stadia (EMACNS) brings together the best masters athletes aged 35 and over from across Europe for nordic walking, road racing, cross country relays and race walking.</p>
+        <p>Set against the dramatic backdrop of the Wild Atlantic Way, expect world-class competition, Irish hospitality, and an unforgettable experience in one of Europe's most vibrant cities.</p>
+        <p>Events will be centred round Galway city, with a social programme and the iconic EMACNS medal awaiting the top three!!</p>
+      </div>
+      <div class="about-stats">
+        <div class="stat-card">
+          <span class="stat-num">35+</span>
+          <span class="stat-label">Age groups (M35–M85+, W35–W85+)</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num">20+</span>
+          <span class="stat-label">Nations expected to compete</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num">1,000+</span>
+          <span class="stat-label">Athletes anticipated</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num">2028</span>
+          <span class="stat-label">May, Galway, Ireland</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Partner logos -->
+    <div style="margin-top:3rem;padding-top:2.5rem;border-top:1px solid rgba(255,255,255,0.07);">
+      <p style="font-size:0.7rem;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:var(--text-muted);margin-bottom:1.25rem;">In Association With</p>
+      <div style="display:flex;flex-wrap:wrap;gap:1.25rem;align-items:center;">
+
+        <!-- EMA logo -->
+        <div style="background:var(--navy-card);border:1px solid rgba(255,255,255,0.07);border-radius:10px;padding:0.9rem 1.4rem;display:flex;align-items:center;justify-content:center;">
+          <img src="image2.png" alt="European Masters Athletics" style="height:50px;width:auto;object-fit:contain;" />
+        </div>
+
+        <!-- Galway City Council -->
+        <div style="background:var(--navy-card);border:1px solid rgba(255,255,255,0.07);border-radius:10px;padding:0.9rem 1.4rem;display:flex;align-items:center;justify-content:center;">
+          <img src="galway-council-transparent.png" alt="Galway City Council" style="height:50px;width:auto;object-fit:contain;" />
+        </div>
+
+        <!-- Sponsor placeholder 1 -->
+        <div style="background:var(--navy-card);border:2px dashed rgba(201,168,76,0.25);border-radius:10px;padding:0.9rem 1.4rem;display:flex;align-items:center;justify-content:center;min-width:130px;min-height:70px;">
+          <span style="font-size:0.65rem;color:rgba(201,168,76,0.4);letter-spacing:0.06em;text-transform:uppercase;">Sponsor Logo</span>
+        </div>
+
+        <!-- Sponsor placeholder 2 -->
+        <div style="background:var(--navy-card);border:2px dashed rgba(201,168,76,0.25);border-radius:10px;padding:0.9rem 1.4rem;display:flex;align-items:center;justify-content:center;min-width:130px;min-height:70px;">
+          <span style="font-size:0.65rem;color:rgba(201,168,76,0.4);letter-spacing:0.06em;text-transform:uppercase;">Sponsor Logo</span>
+        </div>
+
+        <!-- Sponsor placeholder 3 -->
+        <div style="background:var(--navy-card);border:2px dashed rgba(201,168,76,0.25);border-radius:10px;padding:0.9rem 1.4rem;display:flex;align-items:center;justify-content:center;min-width:130px;min-height:70px;">
+          <span style="font-size:0.65rem;color:rgba(201,168,76,0.4);letter-spacing:0.06em;text-transform:uppercase;">Sponsor Logo</span>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ─── EVENTS ─────────────────────────────────────────────── -->
+<section id="events" class="events-section">
+  <div class="section-inner">
+    <p class="section-eyebrow">Competition Programme</p>
+    <h2 class="section-title">Events</h2>
+    <p class="section-lead">All disciplines are run by 5-year age group from M/W35 through to M/W85+. Full programme to be confirmed.</p>
+    <div class="events-grid">
+      <div class="event-card">
+        <div class="event-icon">🏃</div>
+        <h4>Road Racing</h4>
+        <p>10km and Half Marathon on closed Galway city roads. Fast, flat, iconic.</p>
+      </div>
+      <div class="event-card">
+        <div class="event-icon">🌿</div>
+        <h4>Cross Country Relays</h4>
+        <p>Women's, men's and mixed cross country relays on natural terrain in Galway's green spaces.</p>
+      </div>
+      <div class="event-card">
+        <div class="event-icon">🚶</div>
+        <h4>Race Walking</h4>
+        <p>10km and Half Marathon race walking on road courses in Galway city.</p>
+      </div>
+      <div class="event-card">
+        <div class="event-icon">🧭</div>
+        <h4>Nordic Walking</h4>
+        <p>Nordic walking alongside the cross country in Galway's green spaces.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── VENUE ──────────────────────────────────────────────── -->
+<section id="venue">
+  <div class="section-inner">
+    <p class="section-eyebrow">Where We Run</p>
+    <h2 class="section-title">Galway, Ireland</h2>
+    <p class="section-lead">A city of culture, craic and coastline — Galway is Ireland's adventure capital on the Wild Atlantic Way.</p>
+    <div class="venue-grid">
+      <div class="venue-map">
+        <!-- Embed map or replace with a photo of Galway -->
+        <iframe
+          src="https://www.openstreetmap.org/export/embed.html?bbox=-9.18,53.24,-8.90,53.32&layer=mapnik&marker=53.2707,-9.0568"
+          title="Galway, Ireland map"
+          loading="lazy"
+        ></iframe>
+      </div>
+      <div class="venue-details">
+        <h4>Race Headquarters</h4>
+        <p>Galway city — venue TBD. Close to hotels, restaurants and the famous Latin Quarter.</p>
+        <h4>Course Certification</h4>
+        <p>All event courses will meet EMA technical specifications. Full details to be confirmed.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── TRAVEL ─────────────────────────────────────────────── -->
+<section id="travel" class="travel-section">
+  <div class="section-inner">
+    <p class="section-eyebrow">Getting Here</p>
+    <h2 class="section-title">Travel to Galway</h2>
+    <p class="section-lead">Galway is easily reached from across Europe — by air, rail and road.</p>
+    <div class="travel-grid">
+      <div class="travel-card">
+        <div class="icon">✈️</div>
+        <h4>By Air</h4>
+        <p><a href="https://www.irelandwestairport.com" target="_blank" rel="noopener" style="color:var(--gold);">Ireland West Airport Knock →</a> is the closest regional airport (1 hr). <a href="https://www.dublinairport.com" target="_blank" rel="noopener" style="color:var(--gold);">Dublin Airport →</a> (2.5 hrs by bus/rail) has the widest choice of European connections. <a href="https://www.shannonairport.ie" target="_blank" rel="noopener" style="color:var(--gold);">Shannon Airport →</a> (1 hr) offers transatlantic routes.</p>
+      </div>
+      <div class="travel-card">
+        <div class="icon">🚂</div>
+        <h4>By Rail</h4>
+        <p>Direct trains run from Dublin Heuston to Galway Ceannt Station (2.5 hrs). <a href="https://www.irishrail.ie" target="_blank" rel="noopener">Irish Rail →</a></p>
+      </div>
+      <div class="travel-card">
+        <div class="icon">🚌</div>
+        <h4>By Bus</h4>
+        <p>Frequent express coaches from Dublin Airport and city centre. <a href="https://www.buseireann.ie" target="_blank" rel="noopener">Bus Éireann →</a> and <a href="https://www.citylink.ie" target="_blank" rel="noopener">Citylink →</a></p>
+      </div>
+      <div class="travel-card">
+        <div class="icon">🚗</div>
+        <h4>By Car</h4>
+        <p>Galway is approximately 2 hours from Dublin via the M6 motorway. Car hire is available at all major Irish airports.</p>
+      </div>
+      <div class="travel-card">
+        <div class="icon">🛂</div>
+        <h4>Visas & Entry</h4>
+        <p>Ireland is not part of the Schengen Area. EU citizens may use national ID cards. Non-EU athletes should check <a href="https://www.irishimmigration.ie" target="_blank" rel="noopener">Irish Immigration →</a> for visa requirements.</p>
+      </div>
+      <div class="travel-card">
+        <div class="icon">🏙️</div>
+        <h4>Around Galway</h4>
+        <p>Galway city is compact and walkable. Taxis and local buses serve all race venues. Shuttle details will be confirmed closer to the event.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── ACCOMMODATION ──────────────────────────────────────── -->
+<section id="accommodation">
+  <div class="section-inner">
+    <p class="section-eyebrow">Where to Stay</p>
+    <h2 class="section-title">Accommodation</h2>
+    <p class="section-lead">Galway has a wide range of accommodation to suit all budgets — from 5-star hotels to guesthouses and hostels. Book early; the city is busy in summer.</p>
+    <div class="accom-grid">
+      <div class="accom-card">
+        <span class="accom-tag">Official Partner</span>
+        <h4>Championship Hotels</h4>
+        <p>Official partner hotels with preferred athlete rates will be announced as the event takes shape. Sign up for updates to be notified first.</p>
+      </div>
+      <div class="accom-card">
+        <span class="accom-tag">Recommended</span>
+        <h4>City Centre Hotels</h4>
+        <p>Galway city centre has numerous 3–5 star hotels within walking distance of the race headquarters and main road race courses.</p>
+      </div>
+      <div class="accom-card">
+        <span class="accom-tag">Budget</span>
+        <h4>Guesthouses & B&Bs</h4>
+        <p>Galway is renowned for warm B&B hospitality. Many guesthouses are within 2–3km of the city centre.</p>
+      </div>
+      <div class="accom-card">
+        <span class="accom-tag">Self Catering</span>
+        <h4>Apartments & Rentals</h4>
+        <p>For groups and families, self-catering apartments in Galway offer excellent value. Check Airbnb and Booking.com — and book well in advance.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ─── EMA ────────────────────────────────────────────────── -->
+<section id="ema" class="ema-section">
+  <div class="section-inner">
+    <div class="ema-inner">
+      <div class="ema-logo-block" style="background:transparent;border:none;padding:0.5rem;">
+        <img src="image2.png" alt="European Masters Athletics logo" style="width:160px;border-radius:10px;" />
+      </div>
+      <div class="ema-text">
+        <p class="section-eyebrow">The Governing Body</p>
+        <h2 class="section-title">European Masters Athletics</h2>
+        <p>European Masters Athletics (EMA) is the governing body for masters athletics in Europe, affiliated to World Masters Athletics (WMA). EMACNS is EMA's championship for non-stadia disciplines — nordic walking, road racing, cross country relays and race walking.</p>
+        <p>The Championships are hosted on a rotating basis across European nations. Galway 2028 will be organised under EMA technical regulations.</p>
+        <a href="https://www.european-masters-athletics.org" target="_blank" rel="noopener" class="btn-secondary" style="display:inline-block;margin-top:0.5rem;">Visit EMA →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── REGISTER ───────────────────────────────────────────── -->
+
+<!-- ─── FAQ ──────────────────────────────────────────────────── -->
+<section id="faq">
+  <div class="section-inner">
+    <p class="section-eyebrow">Questions & Answers</p>
+    <h2 class="section-title">Frequently Asked Questions</h2>
+    <div style="max-width:760px;margin-top:2rem;">
+
+      <details style="border-bottom:1px solid rgba(255,255,255,0.08);padding:1.2rem 0;" open>
+        <summary style="font-size:1rem;font-weight:600;color:#fff;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;">
+          What is EMACNS Galway 2028?
+          <span style="color:var(--gold);font-size:1.2rem;flex-shrink:0;margin-left:1rem;">+</span>
+        </summary>
+        <p style="font-size:0.9rem;color:var(--text-muted);margin-top:0.75rem;line-height:1.7;">EMACNS Galway 2028 is the European Masters Athletics Championships Non-Stadia, held in Galway, Ireland in May 2028. It is a major international athletics competition for masters athletes aged 35 and over, featuring road racing, Nordic walking, cross country relays and race walking.</p>
+      </details>
+
+      <details style="border-bottom:1px solid rgba(255,255,255,0.08);padding:1.2rem 0;">
+        <summary style="font-size:1rem;font-weight:600;color:#fff;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;">
+          Who can compete?
+          <span style="color:var(--gold);font-size:1.2rem;flex-shrink:0;margin-left:1rem;">+</span>
+        </summary>
+        <p style="font-size:0.9rem;color:var(--text-muted);margin-top:0.75rem;line-height:1.7;">Any masters athlete aged 35 or over representing a European Masters Athletics affiliated nation is eligible to compete. Athletes compete in 5-year age groups from M35/W35 through to M85+/W85+.</p>
+      </details>
+
+      <details style="border-bottom:1px solid rgba(255,255,255,0.08);padding:1.2rem 0;">
+        <summary style="font-size:1rem;font-weight:600;color:#fff;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;">
+          What events are on the programme?
+          <span style="color:var(--gold);font-size:1.2rem;flex-shrink:0;margin-left:1rem;">+</span>
+        </summary>
+        <p style="font-size:0.9rem;color:var(--text-muted);margin-top:0.75rem;line-height:1.7;">EMACNS Galway 2028 includes road racing (10km and Half Marathon), Nordic walking, cross country relays (women's, men's and mixed), and race walking (10km and Half Marathon). All events are run by 5-year age group.</p>
+      </details>
+
+      <details style="border-bottom:1px solid rgba(255,255,255,0.08);padding:1.2rem 0;">
+        <summary style="font-size:1rem;font-weight:600;color:#fff;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;">
+          Where exactly are the events held?
+          <span style="color:var(--gold);font-size:1.2rem;flex-shrink:0;margin-left:1rem;">+</span>
+        </summary>
+        <p style="font-size:0.9rem;color:var(--text-muted);margin-top:0.75rem;line-height:1.7;">All events are centred around Galway city. Exact venues are to be confirmed as planning progresses. Galway is located on the west coast of Ireland on the Wild Atlantic Way, approximately 2 hours from Dublin.</p>
+      </details>
+
+      <details style="border-bottom:1px solid rgba(255,255,255,0.08);padding:1.2rem 0;">
+        <summary style="font-size:1rem;font-weight:600;color:#fff;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;">
+          How do I get to Galway?
+          <span style="color:var(--gold);font-size:1.2rem;flex-shrink:0;margin-left:1rem;">+</span>
+        </summary>
+        <p style="font-size:0.9rem;color:var(--text-muted);margin-top:0.75rem;line-height:1.7;">Galway is accessible by air via Ireland West Airport Knock (1 hour), Dublin Airport (2.5 hours by bus or train) or Shannon Airport (1 hour). Direct trains run from Dublin Heuston to Galway in approximately 2.5 hours. The city is also 2 hours from Dublin by car via the M6 motorway.</p>
+      </details>
+
+      <details style="border-bottom:1px solid rgba(255,255,255,0.08);padding:1.2rem 0;">
+        <summary style="font-size:1rem;font-weight:600;color:#fff;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;">
+          When does athlete registration open?
+          <span style="color:var(--gold);font-size:1.2rem;flex-shrink:0;margin-left:1rem;">+</span>
+        </summary>
+        <p style="font-size:0.9rem;color:var(--text-muted);margin-top:0.75rem;line-height:1.7;">Full athlete registration will open in 2027. Sign up to our Stay Informed list at the top of this page to be notified the moment registration opens.</p>
+      </details>
+
+      <details style="border-bottom:1px solid rgba(255,255,255,0.08);padding:1.2rem 0;">
+        <summary style="font-size:1rem;font-weight:600;color:#fff;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;">
+          How can I volunteer?
+          <span style="color:var(--gold);font-size:1.2rem;flex-shrink:0;margin-left:1rem;">+</span>
+        </summary>
+        <p style="font-size:0.9rem;color:var(--text-muted);margin-top:0.75rem;line-height:1.7;">We need plenty of local volunteers to help make EMACNS Galway 2028 a success. Visit the Volunteer section of this page to register your interest — we'll be in touch with more details as the event takes shape.</p>
+      </details>
+
+      <details style="padding:1.2rem 0;">
+        <summary style="font-size:1rem;font-weight:600;color:#fff;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;">
+          How can my business sponsor the event?
+          <span style="color:var(--gold);font-size:1.2rem;flex-shrink:0;margin-left:1rem;">+</span>
+        </summary>
+        <p style="font-size:0.9rem;color:var(--text-muted);margin-top:0.75rem;line-height:1.7;">EMACNS Galway 2028 offers sponsorship opportunities at Title, Gold Partner and Community Supporter levels, with European-wide exposure across 20+ nations. Visit the Sponsors section of this page to register your interest and receive our prospectus.</p>
+      </details>
+
+    </div>
+  </div>
+</section>
+
+<!-- ─── VOLUNTEER ───────────────────────────────────────────── -->
+<section id="volunteer" style="background: var(--navy-mid); border-top: 1px solid rgba(201,168,76,0.12);">
+  <div class="section-inner">
+    <div style="display:grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start;" class="two-col-resp">
+      <div>
+        <p class="section-eyebrow">Get Involved</p>
+        <h2 class="section-title">Volunteer with Us</h2>
+        <p style="font-size:0.97rem;color:#c5bfb5;line-height:1.75;margin-bottom:1rem;">We will need plenty of local volunteers to help with the success of EMACNS Galway 2028 — from registration and marshalling to results, athlete liaison and everything in between.</p>
+        <p style="font-size:0.97rem;color:#c5bfb5;line-height:1.75;margin-bottom:1.5rem;">If you'd like to be part of what promises to be an incredible event for Galway, register your interest below and we'll be in touch with more details as the event takes shape.</p>
+        <div style="display:flex;gap:0.75rem;flex-wrap:wrap;align-items:center;">
+          <span style="font-size:2rem;">🙋</span>
+          <span style="font-size:2rem;">🏃</span>
+          <span style="font-size:2rem;">🏅</span>
+          <span style="font-size:2rem;">🌍</span>
+        </div>
+      </div>
+      <div style="background:var(--navy-card);border:1px solid rgba(201,168,76,0.12);border-radius:var(--radius);padding:2rem;">
+        <h3 style="font-family:'Playfair Display',serif;font-size:1.2rem;color:#fff;margin-bottom:0.75rem;">Register as a Volunteer</h3>
+        <p style="font-size:0.85rem;color:var(--text-muted);margin-bottom:1.5rem;">Fill in our quick volunteer form — takes less than a minute.</p>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScNbG8qFGe99zD9w_2xSg83W4lrbGyHqZid1xU5XfnWfYxbBw/viewform?usp=header" target="_blank" rel="noopener" style="display:inline-block;background:var(--green);color:#fff;font-weight:600;font-size:0.9rem;padding:0.85rem 1.8rem;border-radius:8px;transition:background 0.2s;" onmouseover="this.style.background='#2a8f52'" onmouseout="this.style.background='var(--green)'">Register as a Volunteer →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── SPONSORS ──────────────────────────────────────────────── -->
+<section id="sponsors">
+  <div class="section-inner">
+    <p class="section-eyebrow">Partner With Us</p>
+    <h2 class="section-title">Sponsors & Partners</h2>
+    <p class="section-lead">Galway 2028 offers your organisation exposure to an international audience across 20+ nations — association with sport, health, active lifestyles and a landmark European event.</p>
+
+    <!-- Current supporter logos -->
+    <div style="margin-bottom:3.5rem;">
+      <h3 style="font-size:0.72rem;font-weight:600;color:var(--text-muted);letter-spacing:0.12em;text-transform:uppercase;margin-bottom:1.25rem;">Supported By</h3>
+      <div style="display:flex;flex-wrap:wrap;gap:1.5rem;align-items:center;">
+
+        <!-- EMA logo (real) -->
+        <div style="background:var(--navy-card);border:1px solid rgba(255,255,255,0.08);border-radius:10px;padding:1rem 1.5rem;display:flex;align-items:center;justify-content:center;min-width:140px;">
+          <img src="image2.png" alt="European Masters Athletics" style="height:60px;width:auto;object-fit:contain;filter:brightness(1.1);" />
+        </div>
+
+        <!-- Placeholder: Your logo here -->
+        <div style="background:var(--navy-card);border:2px dashed rgba(201,168,76,0.3);border-radius:10px;padding:1rem 1.5rem;display:flex;align-items:center;justify-content:center;min-width:160px;min-height:82px;">
+          <span style="font-size:0.75rem;color:rgba(201,168,76,0.5);letter-spacing:0.06em;text-transform:uppercase;">Your Logo Here</span>
+        </div>
+
+        <div style="background:var(--navy-card);border:2px dashed rgba(201,168,76,0.3);border-radius:10px;padding:1rem 1.5rem;display:flex;align-items:center;justify-content:center;min-width:160px;min-height:82px;">
+          <span style="font-size:0.75rem;color:rgba(201,168,76,0.5);letter-spacing:0.06em;text-transform:uppercase;">Your Logo Here</span>
+        </div>
+
+        <div style="background:var(--navy-card);border:2px dashed rgba(201,168,76,0.3);border-radius:10px;padding:1rem 1.5rem;display:flex;align-items:center;justify-content:center;min-width:160px;min-height:82px;">
+          <span style="font-size:0.75rem;color:rgba(201,168,76,0.5);letter-spacing:0.06em;text-transform:uppercase;">Your Logo Here</span>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Why sponsor -->
+    <div style="background:var(--navy-card);border:1px solid rgba(201,168,76,0.12);border-radius:var(--radius);padding:2rem;margin-bottom:2.5rem;">
+      <h3 style="font-family:'Playfair Display',serif;font-size:1.2rem;color:#fff;margin-bottom:1rem;">Why Sponsor Galway 2028?</h3>
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:0.75rem;">
+        <div style="display:flex;gap:0.6rem;align-items:flex-start;font-size:0.84rem;color:var(--text-muted);">
+          <span style="color:var(--gold);flex-shrink:0;">✓</span> Exposure to an international audience from 20+ nations
+        </div>
+        <div style="display:flex;gap:0.6rem;align-items:flex-start;font-size:0.84rem;color:var(--text-muted);">
+          <span style="color:var(--gold);flex-shrink:0;">✓</span> Association with health, wellness and active lifestyles
+        </div>
+        <div style="display:flex;gap:0.6rem;align-items:flex-start;font-size:0.84rem;color:var(--text-muted);">
+          <span style="color:var(--gold);flex-shrink:0;">✓</span> Media and social media visibility across Europe
+        </div>
+        <div style="display:flex;gap:0.6rem;align-items:flex-start;font-size:0.84rem;color:var(--text-muted);">
+          <span style="color:var(--gold);flex-shrink:0;">✓</span> Branding on race numbers, venues and all materials
+        </div>
+        <div style="display:flex;gap:0.6rem;align-items:flex-start;font-size:0.84rem;color:var(--text-muted);">
+          <span style="color:var(--gold);flex-shrink:0;">✓</span> VIP hospitality and networking opportunities
+        </div>
+        <div style="display:flex;gap:0.6rem;align-items:flex-start;font-size:0.84rem;color:var(--text-muted);">
+          <span style="color:var(--gold);flex-shrink:0;">✓</span> Positive CSR and community impact in Galway
+        </div>
+      </div>
+    </div>
+
+    <!-- Sponsor tiers -->
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:1.25rem;margin-bottom:3rem;">
+
+      <div style="background:var(--navy-card);border:2px solid var(--gold);border-radius:var(--radius);padding:1.8rem;position:relative;">
+        <div style="position:absolute;top:-1px;right:1.2rem;background:var(--gold);color:var(--navy);font-size:0.65rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;padding:0.25rem 0.7rem;border-radius:0 0 6px 6px;">Headline</div>
+        <h4 style="font-size:1rem;font-weight:700;color:#fff;margin-bottom:0.75rem;">Headline Sponsor</h4>
+        <ul style="font-size:0.82rem;color:var(--text-muted);line-height:1.7;padding-left:1rem;">
+          <li>Event naming rights</li>
+          <li>Premier logo on all materials & athlete bibs</li>
+          <li>Lead branding on finish gantry</li>
+          <li>VIP hospitality & ceremony participation</li>
+          <li>Full-page ad in official programme</li>
+          <li>Media recognition in all press activity</li>
+        </ul>
+      </div>
+
+      <div style="background:var(--navy-card);border:1px solid rgba(192,192,192,0.3);border-radius:var(--radius);padding:1.8rem;">
+        <h4 style="font-size:1rem;font-weight:700;color:#fff;margin-bottom:0.75rem;">Gold Sponsor</h4>
+        <ul style="font-size:0.82rem;color:var(--text-muted);line-height:1.7;padding-left:1rem;">
+          <li>Prominent logo on event materials & website</li>
+          <li>Branding at key event locations</li>
+          <li>Social media recognition</li>
+          <li>Half-page ad in official programme</li>
+          <li>VIP hospitality invitations</li>
+          <li>Recognition during event ceremonies</li>
+        </ul>
+      </div>
+
+      <div style="background:var(--navy-card);border:1px solid rgba(205,127,50,0.3);border-radius:var(--radius);padding:1.8rem;">
+        <h4 style="font-size:1rem;font-weight:700;color:#fff;margin-bottom:0.75rem;">Silver Sponsor</h4>
+        <ul style="font-size:0.82rem;color:var(--text-muted);line-height:1.7;padding-left:1rem;">
+          <li>Logo on website & selected materials</li>
+          <li>Social media acknowledgement</li>
+          <li>Quarter-page ad in official programme</li>
+          <li>Branding within event venues</li>
+          <li>Sponsor recognition during the event</li>
+        </ul>
+      </div>
+
+      <div style="background:var(--navy-card);border:1px solid rgba(255,255,255,0.07);border-radius:var(--radius);padding:1.8rem;">
+        <h4 style="font-size:1rem;font-weight:700;color:#fff;margin-bottom:0.75rem;">Community Partner</h4>
+        <ul style="font-size:0.82rem;color:var(--text-muted);line-height:1.7;padding-left:1rem;">
+          <li>Logo on event website</li>
+          <li>Recognition on sponsor boards</li>
+          <li>Social media thank-you</li>
+          <li>Inclusion in official programme listings</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Contact + CTA -->
+    <div id="sponsor-form" style="background:var(--navy-card);border:1px solid rgba(201,168,76,0.15);border-radius:var(--radius);padding:2.5rem;max-width:700px;margin:0 auto;">
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:2rem;align-items:center;flex-wrap:wrap;">
+        <div>
+          <h3 style="font-family:'Playfair Display',serif;font-size:1.2rem;color:#fff;margin-bottom:0.5rem;">Get in Touch</h3>
+          <p style="font-size:0.85rem;color:var(--text-muted);margin-bottom:1rem;">Contact Ronan Gately to discuss sponsorship opportunities and receive our full prospectus.</p>
+          <div style="font-size:0.85rem;color:#c5bfb5;line-height:2;">
+            <div>📧 <a href="mailto:ronangately@hotmail.com" style="color:var(--gold);">ronangately@hotmail.com</a></div>
+            <div>📞 <a href="tel:+353868289296" style="color:var(--gold);">086 828 9296</a></div>
+            <div style="font-size:0.78rem;color:var(--text-muted);margin-top:0.25rem;">Masters in Motion CLG</div>
+          </div>
+        </div>
+        <div style="text-align:center;">
+          <p style="font-size:0.82rem;color:var(--text-muted);margin-bottom:1rem;">Or register your interest online:</p>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdn0pqIi4QjB39Q0wwDEzGtC__a62nuv9zURyJbj4VxZ4YRGg/viewform?usp=header" target="_blank" rel="noopener" style="display:inline-block;background:var(--gold);color:var(--navy);font-weight:700;font-size:0.88rem;padding:0.85rem 1.5rem;border-radius:8px;" onmouseover="this.style.background='#e8c97a'" onmouseout="this.style.background='var(--gold)'">Register Sponsorship Interest →</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ─── FOOTER ─────────────────────────────────────────────── -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="brand-name">EMACNS Galway 2028</div>
+      <div class="brand-domain">galway2028.ie</div>
+    </div>
+    <div class="footer-links">
+      <a href="#about">About</a>
+      <a href="#events">Events</a>
+      <a href="#venue">Venue</a>
+      <a href="#travel">Travel</a>
+      <a href="#accommodation">Stay</a>
+      <a href="#volunteer">Volunteer</a>
+      <a href="#sponsors">Sponsors</a>
+      <a href="https://www.european-masters-athletics.org" target="_blank" rel="noopener">EMA</a>
+      <a href="mailto:info@galway2028.ie">Contact</a>
+    </div>
+    <div class="footer-copy">© 2028 EMACNS Galway 2028 · galway2028.ie</div>
+  </div>
+</footer>
+
+<!-- ─── SCRIPTS ────────────────────────────────────────────── -->
+<script>
+  /* Countdown — target date: 1 July 2028 */
+  const TARGET = new Date('2028-05-01T09:00:00').getTime();
+  function tick() {
+    const now = Date.now();
+    const diff = TARGET - now;
+    if (diff <= 0) {
+      document.getElementById('countdown').innerHTML = '<div style="color:var(--gold-light);font-size:1.2rem;font-weight:700;">🏅 The Championships are underway!</div>';
+      return;
+    }
+    const d = Math.floor(diff / 86400000);
+    const h = Math.floor((diff % 86400000) / 3600000);
+    const m = Math.floor((diff % 3600000) / 60000);
+    const s = Math.floor((diff % 60000) / 1000);
+    document.getElementById('cd-days').textContent = String(d).padStart(3,'0');
+    document.getElementById('cd-hrs').textContent  = String(h).padStart(2,'0');
+    document.getElementById('cd-min').textContent  = String(m).padStart(2,'0');
+    document.getElementById('cd-sec').textContent  = String(s).padStart(2,'0');
+  }
+  tick();
+  setInterval(tick, 1000);
+
+  /* Generic Formspree AJAX submit */
+  async function submitForm(form, confirmId) {
+    const data = new FormData(form);
+    const btn = form.querySelector('button[type="submit"]');
+    btn.disabled = true;
+    btn.textContent = 'Sending…';
+    try {
+      const res = await fetch(form.action, {
+        method: 'POST',
+        body: data,
+        headers: { 'Accept': 'application/json' }
+      });
+      if (res.ok) {
+        form.style.display = 'none';
+        document.getElementById(confirmId).style.display = 'block';
+      } else {
+        btn.disabled = false;
+        btn.textContent = 'Try again';
+      }
+    } catch {
+      btn.disabled = false;
+      btn.textContent = 'Try again';
+    }
+  }
+
+  function handleVolunteer(e) {
+    e.preventDefault();
+    submitForm(e.target, 'vol-confirm');
+  }
+
+  function handleSponsor(e) {
+    e.preventDefault();
+    submitForm(e.target, 'sp-confirm');
+  }
+
+  function handleNotify(e) {
+    e.preventDefault();
+    submitForm(e.target, 'notify-confirm');
+    const btn = e.target.querySelector('button');
+    btn.textContent = '✓ You\'re on the list!';
+    btn.style.background = '#1a6b3c';
+  }
+</script>
+
+<!-- ─── COOKIE CONSENT ───────────────────────────────────────── -->
+<div id="cookie-banner" style="display:none;position:fixed;bottom:0;left:0;right:0;z-index:999;background:#0d1221;border-top:1px solid rgba(201,168,76,0.25);padding:1.25rem 2rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem;">
+  <p style="font-size:0.82rem;color:#c5bfb5;max-width:700px;margin:0;">
+    We use cookies to analyse site traffic via Google Analytics. No personal data is shared with third parties.
+    <a href="https://policies.google.com/privacy" target="_blank" rel="noopener" style="color:var(--gold);text-decoration:underline;text-underline-offset:3px;">Learn more</a>
+  </p>
+  <div style="display:flex;gap:0.75rem;flex-shrink:0;">
+    <button onclick="acceptCookies()" style="background:var(--gold);color:#0a0e1a;border:none;border-radius:6px;padding:0.5rem 1.2rem;font-size:0.82rem;font-weight:700;font-family:inherit;cursor:pointer;">Accept</button>
+    <button onclick="declineCookies()" style="background:transparent;color:var(--text-muted);border:1px solid rgba(255,255,255,0.15);border-radius:6px;padding:0.5rem 1.2rem;font-size:0.82rem;font-weight:500;font-family:inherit;cursor:pointer;">Decline</button>
+  </div>
+</div>
+
+<script>
+  // Hamburger menu
+  const hamburger = document.getElementById('hamburger');
+  const mobileMenu = document.getElementById('mobile-menu');
+  function closeMobileMenu() {
+    hamburger.classList.remove('open');
+    mobileMenu.classList.remove('open');
+    hamburger.setAttribute('aria-expanded', 'false');
+  }
+  hamburger.addEventListener('click', () => {
+    const isOpen = mobileMenu.classList.toggle('open');
+    hamburger.classList.toggle('open', isOpen);
+    hamburger.setAttribute('aria-expanded', String(isOpen));
+  });
+  // Close menu on outside click
+  document.addEventListener('click', e => {
+    if (!hamburger.contains(e.target) && !mobileMenu.contains(e.target)) closeMobileMenu();
+  });
+
+  // Cookie consent
+  (function() {
+    const consent = localStorage.getItem('cookie-consent');
+    if (!consent) {
+      document.getElementById('cookie-banner').style.display = 'flex';
+    } else if (consent === 'declined') {
+      // Disable GA if previously declined
+      window['ga-disable-G-QJJYYE20G2'] = true;
+    }
+  })();
+
+  function acceptCookies() {
+    localStorage.setItem('cookie-consent', 'accepted');
+    document.getElementById('cookie-banner').style.display = 'none';
+  }
+
+  function declineCookies() {
+    localStorage.setItem('cookie-consent', 'declined');
+    window['ga-disable-G-QJJYYE20G2'] = true;
+    document.getElementById('cookie-banner').style.display = 'none';
+  }
+</script>
+
+</body>
+</html>
