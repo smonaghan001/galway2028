@@ -2,7 +2,7 @@
 title: Fifteen Medals for Ireland at BMAF Track & Field Championships
 date: 2026-09-15
 summary: A stellar weekend for Irish masters athletes at the BMAF Track & Field Championships in Derby — 15 medals across sprints, hurdles, middle distance and field events.
-image: "image2.png"
+image: "6b-results-bmaf-derby.png"
 ---
 
 While the mountain runners were conquering Romania, another group of Irish masters athletes were delivering outstanding performances at the BMAF Track & Field Championships in Derby this past weekend — bringing home **15 medals** across a wide range of events.
