@@ -2,7 +2,7 @@
 title: Irish Masters Shine at EMORRC 2026 Râșnov
 date: 2026-09-15
 summary: Ireland's masters athletes delivered a brilliant weekend in the mountains of Romania — 10 medals across three days at the European Masters Off Road Running Championships.
-image: "image1.png"
+image: "6a-results-emorrc.png"
 ---
 
 Ireland's masters running community had a weekend to remember in Râșnov, Romania, as athletes from across the country competed at the European Masters Off Road Running Championships (EMORRC) 2026 — and came home with 10 medals.
