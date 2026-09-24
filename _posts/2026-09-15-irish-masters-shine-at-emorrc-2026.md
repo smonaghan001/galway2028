@@ -38,7 +38,7 @@ The M70s were busy all weekend — Matthew Alexander, Gerry Brady and Peter Bell
 
 ## The Bigger Picture
 
-Fourteen Irish athletes competed across the three race days — a significant and committed squad to travel to Romania for a mountain running championship. The championship format — Friday Vertical Race, Saturday Long Distance, Sunday Classic Up&Down — tested endurance, technical ability and sheer mountain running grit.
+Eighteen Irish athletes travelled to Romania — 18 of 21 entered competed across the three race days — a significant and committed squad to travel to Romania for a mountain running championship. The championship format — Friday Vertical Race, Saturday Long Distance, Sunday Classic Up&Down — tested endurance, technical ability and sheer mountain running grit.
 
 This is exactly the kind of event that Galway 2028 will be delivering for masters athletes across Europe. We hope many of the athletes who raced in Râșnov this weekend will be with us on the Wild Atlantic Way in May 2028.
 
