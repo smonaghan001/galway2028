@@ -256,6 +256,17 @@
   <div class="news-inner">
     <div class="news-grid">
 
+      <!-- POST: Dates and logo confirmed -->
+      <div class="post-card" onclick="openPost('dates-confirmed')">
+        <img class="post-card-img" src="galway2028-logo-news.png" alt="The official EMACNS Galway 2028 logo" />
+        <div class="post-card-body">
+          <p class="post-date">27 September 2026</p>
+          <h2 class="post-title">It's Official — Galway 2028 Is Set for 18–21 May</h2>
+          <p class="post-summary">European Masters Athletics has confirmed the dates for the 21st Non-Stadia Championships, and we can finally show you the official logo. Four days of racing on the Wild Atlantic Way.</p>
+          <span class="post-read-more">Read more →</span>
+        </div>
+      </div>
+
       <!-- POST: BMAF T&F Derby 2026 -->
       <div class="post-card" onclick="openPost('bmaf-derby-2026-results')">
         <img class="post-card-img" src="6b-results-bmaf-derby.png" alt="Ireland's medal haul at BMAF Track &amp; Field Championships Derby 2026 — 15 medals" />
@@ -438,6 +449,25 @@
 </section>
 
 <!-- POST MODALS -->
+
+<!-- Modal: Dates and logo confirmed -->
+<div class="modal-overlay" id="modal-dates-confirmed" onclick="closeModal(event, 'dates-confirmed')">
+  <div class="modal">
+    <button class="modal-close" onclick="closePost('dates-confirmed')">✕</button>
+    <p class="modal-date">27 September 2026</p>
+    <h2 class="modal-title">It's Official — Galway 2028 Is Set for 18–21 May</h2>
+    <div class="modal-content">
+      <img class="modal-img" src="galway2028-logo-news.png" alt="The official EMACNS Galway 2028 logo" />
+      <p>European Masters Athletics has today confirmed the dates for the 21st European Masters Athletics Championships Non-Stadia. <strong>From 18 to 21 May 2028, Galway hosts four days of competition</strong> — and after months of work behind the scenes, we can finally show you the official event logo. For the first time in the championship's history, the Non-Stadia Championships come to Ireland.</p>
+      <p>Over 1,000 masters athletes and thousands of supporters are expected to travel from across Europe and beyond. The programme spans four disciplines: <strong>road racing over 10km and the half marathon, cross country relays, nordic walking, and road race walking over 10km and 20km</strong>. Every event is run by five-year age group, from M35 and W35 all the way through to M100+ and W100+.</p>
+      <p>A championship date is not an abstraction to a masters athlete. It is the thing that shapes a winter's training, that decides whether you go after the road 10km or put a relay team together, that has to be squared with work and family before anything else can happen. Now you can plan around it. Four days in Galway in late May, with the Atlantic doing whatever the Atlantic decides to do that week.</p>
+      <p>About the logo: the mark puts a runner at the centre of a rising sun, with the rays carrying the energy outward, and sets it above a Galway wordmark drawn in a lettering style that nods to the west of Ireland. It will be on the start line, on the finish gantry and on the shirts of athletes from more than twenty nations. We will share the story behind it, in the designer's own words, in the coming days.</p>
+      <p>The championships are being delivered in partnership with <strong>European Masters Athletics, Athletics Ireland, the Irish Masters Athletes Association and Galway City Council</strong>. Registration details, course maps and the full timetable will follow from EMA and will be published here as soon as they are confirmed. If you would like to hear about them first, <a href="index.html#register">register your interest</a> and we will let you know — and nothing else.</p>
+      <p>Twenty months. Fáilte go Gaillimh — we cannot wait to have you here.</p>
+      <p><em>The EMACNS Galway 2028 Organising Committee</em></p>
+    </div>
+  </div>
+</div>
 
 <!-- Modal: BMAF T&F Derby 2026 -->
 <div class="modal-overlay" id="modal-bmaf-derby-2026-results" onclick="closeModal(event, 'bmaf-derby-2026-results')">
