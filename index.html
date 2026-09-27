@@ -366,6 +366,29 @@
       background: var(--gold);
       flex-shrink: 0;
     }
+    .hero-dates {
+      display: inline-flex;
+      align-items: baseline;
+      gap: 0.6rem;
+      flex-wrap: wrap;
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.7rem, 4.2vw, 2.6rem);
+      font-weight: 700;
+      line-height: 1.1;
+      color: var(--gold-light);
+      margin: 0 0 0.35rem;
+      letter-spacing: 0.01em;
+    }
+    .hero-dates .hero-dates-year {
+      color: #fff;
+    }
+    .hero-dates-sub {
+      font-size: 0.82rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 1.4rem;
+    }
     .hero-tagline {
       font-size: 1.1rem;
       color: #c5bfb5;
@@ -919,7 +942,9 @@
       🏅 <span>European Masters Athletics Championships</span> · Non-Stadia
     </div>
     <h1>Where Champions<br/>Come to <em>Galway</em></h1>
-    <p class="hero-location">Galway, Ireland — 18–21 May 2028</p>
+    <p class="hero-location">Galway, Ireland · Wild Atlantic Way</p>
+    <p class="hero-dates">18–21 May <span class="hero-dates-year">2028</span></p>
+    <p class="hero-dates-sub">Dates confirmed by European Masters Athletics</p>
     <p class="hero-tagline">
       Masters athletes from across Europe compete on the wild Atlantic coast — nordic walking, road racing, cross country relays and race walking in one of Ireland's most iconic cities.
     </p>
@@ -1556,7 +1581,7 @@
 <!-- ─── SCRIPTS ────────────────────────────────────────────── -->
 <script>
   /* Countdown — target date: 1 July 2028 */
-  const TARGET = new Date('2028-05-01T09:00:00').getTime();
+  const TARGET = new Date('2028-05-18T09:00:00').getTime();
   function tick() {
     const now = Date.now();
     const diff = TARGET - now;
