@@ -277,6 +277,17 @@
   <div class="news-inner">
     <div class="news-grid">
 
+      <!-- POST: Athlete interview — John -->
+      <div class="post-card" onclick="openPost('interview-john-laste')">
+        <img class="post-card-img" src="interview-john-1280x720.jpg" alt="John Laste, Irish race walker, celebrating at the European Masters Non-Stadia Championships in Catania" />
+        <div class="post-card-body">
+          <p class="post-date">23 October 2026</p>
+          <h2 class="post-title">"Masters Athletes Look Forward, Not Back"</h2>
+          <p class="post-summary">A knee injury ended John's running. Race walking gave him a new lease of life, and medals at home and abroad. The first in our series of athlete interviews.</p>
+          <span class="post-read-more">Read more →</span>
+        </div>
+      </div>
+
       <!-- POST: Zagreb World Masters Marathon -->
       <div class="post-card" onclick="openPost('world-masters-marathon-zagreb-2026')">
         <img class="post-card-img" src="zagreb-2026-irene-clements-podium.jpg" alt="Irene Clements on top of the W65 podium at the World Masters Athletics Marathon Championship in Zagreb" />
@@ -514,6 +525,29 @@
 </section>
 
 <!-- POST MODALS -->
+
+<!-- Modal: Athlete interview — John -->
+<div class="modal-overlay" id="modal-interview-john-laste" onclick="closeModal(event, 'interview-john-laste')">
+  <div class="modal">
+    <button class="modal-close" onclick="closePost('interview-john-laste')">✕</button>
+    <p class="modal-date">23 October 2026</p>
+    <h2 class="modal-title">"Masters Athletes Look Forward, Not Back"</h2>
+    <div class="modal-content">
+      <img class="modal-img" src="interview-john-1280x720.jpg" alt="John Laste, Irish race walker, celebrating at the European Masters Non-Stadia Championships in Catania" />
+      <p><em>John Laste is an M60 race walker with Clonmel AC in Co. Tipperary, who has represented Ireland at world and European masters championships. At the European Masters Non-Stadia Championships in Catania this year he won two team bronze medals, in the 20km race walk and the cross country relay. In the first of our athlete interviews ahead of the next edition, in Galway on 18–21 May 2028, we asked him four questions.</em></p>
+      <p><strong>There's usually a moment that hooks you for life. What was yours?</strong></p>
+      <p>Going to Toruń in 2019 to compete in the world indoor championships as a 55-year-old was such an eye-opener, seeing what masters athletes can accomplish as individuals but as part of a competitive team. Representing my country is such a joyful and proud experience.</p>
+      <p><strong>You're lining up at a world championship in your 60s. What would the younger version of you make of that?</strong></p>
+      <p>He would be so proud of the way I have been able to re-evaluate and reimagine how I can be competitive in sport. To be still totally focused and determined to succeed in my 60s is a source of real pride.</p>
+      <p><strong>Galway 2028 puts walkers, cross country runners and road runners in the same championship. What does it mean to you that walking stands alongside the others?</strong></p>
+      <p>When I lost the ability to run due to a knee injury, race walking gave me such a new lease of life. Learning a new event, meeting new amazing sporting friends and winning national and international medals. To say I'm filled with pride would be an understatement.</p>
+      <p><strong>If a 45-year-old reading this thinks their sporting days are behind them, what do you want them to know?</strong></p>
+      <p>If you are a 45-year-old who loves athletics as a sport – running, jumping, throwing or walking – being a masters athlete will give you back your competitive edge, keep you fit and healthy, open doors you thought had slammed shut, allow you to experience team competition and broaden your friendships. Masters athletes look forward, not back.</p>
+      <p>Thank you, John. We'll see you on the roads of Galway in May 2028.</p>
+      <p>Race walking at Galway 2028 is over 10km and 20km. Read <a href="#" onclick="closePost('interview-john-laste'); openPost('walking-events-explained'); return false;">Heel, Toe, Repeat — The Walking Events Explained</a>, or <a href="https://galway2028.ie/#register">register your interest</a>.</p>
+    </div>
+  </div>
+</div>
 
 <!-- Modal: Zagreb World Masters Marathon -->
 <div class="modal-overlay" id="modal-world-masters-marathon-zagreb-2026" onclick="closeModal(event, 'world-masters-marathon-zagreb-2026')">
