@@ -277,6 +277,17 @@
   <div class="news-inner">
     <div class="news-grid">
 
+      <!-- POST: Athlete interview — Ross Alexander -->
+      <div class="post-card" onclick="openPost('interview-ross-alexander')">
+        <img class="post-card-img" src="interview-ross-1280x720.jpg" alt="Ross Alexander race walking for Ireland at the European Masters Non-Stadia Championships in Catania" />
+        <div class="post-card-body">
+          <p class="post-date">30 October 2026</p>
+          <h2 class="post-title">"Age Is Only a Number": Ross Alexander</h2>
+          <p class="post-summary">Hooked on race walking as a teenager, Ross Alexander has been getting faster year on year in more than a decade of masters racing. The second in our series of athlete interviews.</p>
+          <span class="post-read-more">Read more →</span>
+        </div>
+      </div>
+
       <!-- POST: Catherine O'Connor, Budapest -->
       <div class="post-card" onclick="openPost('catherine-oconnor-budapest-2026')">
         <img class="post-card-img" src="galway2028-discipline-roadracing.png" alt="The Disciplines — Road Racing, Galway 2028" />
@@ -536,6 +547,29 @@
 </section>
 
 <!-- POST MODALS -->
+
+<!-- Modal: Athlete interview — Ross Alexander -->
+<div class="modal-overlay" id="modal-interview-ross-alexander" onclick="closeModal(event, 'interview-ross-alexander')">
+  <div class="modal">
+    <button class="modal-close" onclick="closePost('interview-ross-alexander')">✕</button>
+    <p class="modal-date">30 October 2026</p>
+    <h2 class="modal-title">"Age Is Only a Number": Ross Alexander</h2>
+    <div class="modal-content">
+      <img class="modal-img" src="interview-ross-1280x720.jpg" alt="Ross Alexander race walking for Ireland at the European Masters Non-Stadia Championships in Catania" />
+      <p><em>Ross Alexander is an M45 race walker with Coolquill AC in Co. Tipperary. At the European Masters Non-Stadia Championships in Catania this year he finished fourth in M45 in both the 10km and 20km walks, and won team bronze in the 20km alongside Bobby King and John Laste. In the second of our athlete interviews ahead of the next edition, in Galway on 18–21 May 2028, we asked him four questions.</em></p>
+      <p><strong>There's usually a moment that hooks you for life. What was yours?</strong></p>
+      <p>After very little practice for my first race walking race in my early teens and finishing ahead of many that had significantly more and then thinking this might be for me, from then I was hooked.</p>
+      <p><strong>You're lining up at a European championship in your forties. What would the younger version of you make of that?</strong></p>
+      <p>My younger self would be thinking, how does one from a small country club in Ireland get to do his sport on the world stage? But with hard work it can be done.</p>
+      <p><strong>Galway 2028 puts walkers, cross country runners and road runners in the same championship. What does it mean to you that walking stands alongside the others?</strong></p>
+      <p>Race walking is probably considered a less glamorous event but to have it alongside the others on an equal footing showcases it on a different level that it deserves. Especially displaying how technical the event is.</p>
+      <p><strong>If a 45-year-old reading this thinks their sporting days are behind them, what do you want them to know?</strong></p>
+      <p>Having competed now for over 10 years in the masters, the saying "age is only a number" is exactly true for me. With the right balance of training and recovery I have consistently improved my times year on year, proving it can be done. The camaraderie, enjoyment and sense of achievement that can be got is invaluable.</p>
+      <p>Thank you, Ross. We'll see you on the roads of Galway in May 2028.</p>
+      <p>Read our first interview, with Ross's Catania teammate <a href="#" onclick="closePost('interview-ross-alexander'); openPost('interview-john-laste'); return false;">John Laste</a>, or <a href="https://galway2028.ie/#register">register your interest</a>.</p>
+    </div>
+  </div>
+</div>
 
 <!-- Modal: Catherine O'Connor, Budapest -->
 <div class="modal-overlay" id="modal-catherine-oconnor-budapest-2026" onclick="closeModal(event, 'catherine-oconnor-budapest-2026')">
