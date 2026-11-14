@@ -277,6 +277,19 @@
   <div class="news-inner">
     <div class="news-grid">
 
+      <!-- ─── ADD NEW POSTS DIRECTLY BELOW THIS LINE (newest first) ─── -->
+
+      <!-- POST: Athlete interview — Brenda Gannon -->
+      <div class="post-card" onclick="openPost('interview-brenda-gannon')">
+        <img class="post-card-img" src="interview-brenda-quote-1280x720.png" alt="Brenda Gannon — Don&rsquo;t leave it to chance, get involved now" />
+        <div class="post-card-body">
+          <p class="post-date">14 November 2026</p>
+          <h2 class="post-title">&ldquo;Don&rsquo;t Leave It to Chance&rdquo;: Brenda Gannon</h2>
+          <p class="post-summary">She started race walking at 38. This summer she won world silver for Ireland. The third in our series of athlete interviews.</p>
+          <span class="post-read-more">Read more →</span>
+        </div>
+      </div>
+
       <!-- POST: 150 registered -->
       <div class="post-card" onclick="openPost('150-athletes-registered')">
         <img class="post-card-img" src="150-athletes-registered.png" alt="150 athletes registered from 18 countries for EMACNS Galway 2028" />
@@ -409,7 +422,6 @@
         </div>
       </div>
 
-      <!-- ─── ADD NEW POSTS ABOVE THIS LINE ─── -->
       <!-- POST: Ireland in Râșnov -->
       <div class="post-card" onclick="openPost('ireland-rasnov-2026')">
         <img class="post-card-img" src="rasnov-2026-ident.png" alt="Ireland in Râșnov — European Masters Off-Road Running Championships, 10-13 September 2026" />
@@ -558,6 +570,29 @@
 </section>
 
 <!-- POST MODALS -->
+
+<!-- Modal: Athlete interview — Brenda Gannon -->
+<div class="modal-overlay" id="modal-interview-brenda-gannon" onclick="closeModal(event, 'interview-brenda-gannon')">
+  <div class="modal">
+    <button class="modal-close" onclick="closePost('interview-brenda-gannon')">✕</button>
+    <p class="modal-date">14 November 2026</p>
+    <h2 class="modal-title">&ldquo;Don&rsquo;t Leave It to Chance&rdquo;: Brenda Gannon</h2>
+    <div class="modal-content">
+      <img class="modal-img" src="interview-brenda-quote-1280x720.png" alt="Brenda Gannon — Don&rsquo;t leave it to chance, get involved now" />
+      <p><em>Brenda Gannon is a Sligo-born race walker, now based in Australia, who competes for Ireland. At the World Masters Championships in Daegu this summer she won silver in the W50 20km road walk, two years after finishing fifth at her first World Championship. In the third of our athlete interviews ahead of the European Masters Non-Stadia Championships in Galway, 18–21 May 2028, we asked her four questions.</em></p>
+      <p><strong>There&rsquo;s usually a moment (a race, a morning walk, a conversation) that hooks you for life. What was yours?</strong></p>
+      <p>I started race walking in 2012, the year of the Olympics in London. My first novice race that April, in Leeds, hooked me in... on a tartan track for the first time ever (remember we did Community Games mostly on grass track...). The invite from Andi Drake to train alongside elite walkers, after that, ensured I was embedded into a serious training program.</p>
+      <p><strong>You&rsquo;re lining up at a world championship in your 50s. What would the younger version of you make of that?</strong></p>
+      <p>I would be proud but would never have believed it. But then in later years, training alongside elite athletes, who had strong self-belief, led me to believe it was achievable and I raced in open races at national level too (still do! Qualifying this year for Australian Athletics Open 1/2 marathon championships). This year was my second World Championship – I always had a medal in mind though (as they say, &lsquo;we don&rsquo;t make any unnecessary journeys&rsquo;) – 5th in 2024, 2nd in 2026, hopefully 1st someday.</p>
+      <p><strong>Galway 2028 puts walkers, cross country runners and road runners in the same championship. What does it mean to you that walking stands alongside the others?</strong></p>
+      <p>I hope they can keep up lol, we are speedy and always judged for technique. More seriously, race walking is an endurance sport and it&rsquo;s great to see all endurance athletes together. Fast walkers often have a history of fast running. I ran from an early age – ran a marathon last year and race walked a marathon this year, all part of my training. By 2028, I will have entered 1–2 more marathons, race walking among all the runners.</p>
+      <p><strong>If a 45-year-old reading this thinks their sporting days are behind them, what do you want them to know?</strong></p>
+      <p>Never too late to start again or start new – with a background in other sport, I started race walking at age 38, by chance, when a race walk coach came to our running club. Don&rsquo;t leave it to chance, get involved now. Be prepared to balance life and training for better health now and into the future. Immerse yourself and race among the best, to challenge yourself. Aim high – championships bring out the best athlete in you. Race walking has a great community – being from Sligo, I often trained with Ray Flynn&rsquo;s group when home. It is also very international and groups are very welcoming when racing or travelling abroad.</p>
+      <p>Thank you, Brenda. We hope to see you on the roads of Galway in May 2028.</p>
+      <p>Read our previous interview, with <a href="#" onclick="closePost('interview-brenda-gannon'); openPost('interview-ross-alexander'); return false;">Ross Alexander</a>, or <a href="https://galway2028.ie/#register">register your interest</a>.</p>
+    </div>
+  </div>
+</div>
 
 <!-- Modal: 150 registered -->
 <div class="modal-overlay" id="modal-150-athletes-registered" onclick="closeModal(event, '150-athletes-registered')">
