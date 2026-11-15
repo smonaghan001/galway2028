@@ -6,7 +6,7 @@
   <title>News — EMACNS Galway 2028</title>
   <meta name="description" content="Latest news and updates from EMACNS Galway 2028 — the European Masters Athletics Championships Non-Stadia, Galway, Ireland, May 2028." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lora:ital,wght@0,600;0,700;1,500&family=Uncial+Antiqua&display=swap" rel="stylesheet" />
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-QJJYYE20G2"></script>
   <script>
@@ -23,11 +23,17 @@
     img { display: block; max-width: 100%; }
 
     :root {
-      --gold: #c9a84c;
-      --gold-light: #e8c97a;
-      --gold-dim: rgba(201,168,76,0.18);
-      --green: #1a6b3c;
-      --green-light: #2a8f52;
+      /* Palette taken from the final Galway 28 logo files (Nov 2026) */
+      --gold: #d4b86c;
+      --gold-light: #f4e8c9;   /* logo cream */
+      --gold-dim: rgba(212,184,108,0.18);
+      --cream: #f4e8c9;
+      --green: #17693a;
+      --green-light: #169b62;
+      --flag-green: #169b62;
+      --flag-white: #ffffff;
+      --flag-orange: #ff883e;
+      --navy-dark: #070a13;
       --navy: #0a0e1a;
       --navy-mid: #111827;
       --navy-card: #161d2e;
@@ -41,7 +47,7 @@
       display: flex; align-items: center; justify-content: space-between;
       padding: 0 2rem; height: 64px;
       background: rgba(10,14,26,0.92); backdrop-filter: blur(12px);
-      border-bottom: 1px solid rgba(201,168,76,0.15);
+      border-bottom: 1px solid rgba(212,184,108,0.15);
     }
     .nav-brand { display: flex; flex-direction: column; line-height: 1.1; }
     .nav-brand .event-name { font-size: 1rem; font-weight: 700; color: var(--gold-light); letter-spacing: 0.04em; }
@@ -61,11 +67,11 @@
     .page-header {
       padding: 9rem 2rem 4rem;
       background: linear-gradient(160deg, #0d1221 0%, #0a0e1a 60%);
-      border-bottom: 1px solid rgba(201,168,76,0.12);
+      border-bottom: 1px solid rgba(212,184,108,0.12);
     }
     .page-header-inner { max-width: 1100px; margin: 0 auto; }
     .page-eyebrow { font-size: 0.72rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--gold); margin-bottom: 0.6rem; }
-    .page-title { font-family: 'Playfair Display', serif; font-size: clamp(2rem, 4vw, 3rem); color: #fff; }
+    .page-title { font-family: 'Lora', Georgia, serif; font-size: clamp(2rem, 4vw, 3rem); color: #fff; }
 
     .news-section { padding: 4rem 2rem; }
     .news-inner { max-width: 1100px; margin: 0 auto; }
@@ -85,7 +91,7 @@
     .post-card-img-placeholder span { font-size: 3rem; opacity: 0.3; }
     .post-card-body { padding: 1.5rem; }
     .post-date { font-size: 0.75rem; color: var(--gold); font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 0.5rem; }
-    .post-title { font-family: 'Playfair Display', serif; font-size: 1.2rem; color: #fff; margin-bottom: 0.5rem; line-height: 1.3; }
+    .post-title { font-family: 'Lora', Georgia, serif; font-size: 1.2rem; color: #fff; margin-bottom: 0.5rem; line-height: 1.3; }
     .post-summary { font-size: 0.85rem; color: var(--text-muted); line-height: 1.6; }
     .post-read-more { font-size: 0.8rem; color: var(--gold); font-weight: 600; margin-top: 1rem; display: inline-block; }
 
@@ -97,7 +103,7 @@
     .modal-overlay.open { display: flex; align-items: flex-start; justify-content: center; }
     .modal {
       background: var(--navy-card);
-      border: 1px solid rgba(201,168,76,0.15);
+      border: 1px solid rgba(212,184,108,0.15);
       border-radius: var(--radius);
       max-width: 720px; width: 100%;
       margin: auto; padding: 2.5rem;
@@ -112,7 +118,7 @@
     }
     .modal-close:hover { background: rgba(255,255,255,0.15); color: #fff; }
     .modal-date { font-size: 0.75rem; color: var(--gold); font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 0.75rem; }
-    .modal-title { font-family: 'Playfair Display', serif; font-size: 1.8rem; color: #fff; margin-bottom: 1.5rem; line-height: 1.2; }
+    .modal-title { font-family: 'Lora', Georgia, serif; font-size: 1.8rem; color: #fff; margin-bottom: 1.5rem; line-height: 1.2; }
     .modal-img { width: 100%; border-radius: 8px; margin-bottom: 1.5rem; max-height: 360px; object-fit: cover; }
     .modal-content { font-size: 0.95rem; color: #c5bfb5; line-height: 1.8; }
     .modal-content p { margin-bottom: 1rem; }
@@ -130,7 +136,7 @@
     .footer-social a {
       display: flex; align-items: center; justify-content: center;
       width: 36px; height: 36px; border-radius: 50%;
-      border: 1px solid rgba(201,168,76,0.3);
+      border: 1px solid rgba(212,184,108,0.3);
       color: var(--text-muted); transition: border-color 0.2s, color 0.2s;
     }
     .footer-social a:hover { border-color: var(--gold); color: var(--gold-light); }
@@ -160,7 +166,7 @@
       display: none; position: fixed;
       top: 64px; left: 0; right: 0;
       background: rgba(10,14,26,0.98);
-      border-bottom: 1px solid rgba(201,168,76,0.2);
+      border-bottom: 1px solid rgba(212,184,108,0.2);
       z-index: 99; flex-direction: column;
       padding: 1rem 2rem 1.5rem; gap: 0.25rem;
     }
@@ -1171,7 +1177,7 @@
 </footer>
 
 <!-- ─── COOKIE CONSENT ───────────────────────────────────────── -->
-<div id="cookie-banner" style="display:none;position:fixed;bottom:0;left:0;right:0;z-index:999;background:#0d1221;border-top:1px solid rgba(201,168,76,0.25);padding:1.25rem 2rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem;">
+<div id="cookie-banner" style="display:none;position:fixed;bottom:0;left:0;right:0;z-index:999;background:#0d1221;border-top:1px solid rgba(212,184,108,0.25);padding:1.25rem 2rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem;">
   <p style="font-size:0.82rem;color:#c5bfb5;max-width:700px;margin:0;">
     We use cookies to analyse site traffic (Google Analytics) and, if you accept, to measure our Facebook and Instagram advertising (Meta Pixel). No personal data is sold or shared with third parties.
     <a href="https://policies.google.com/privacy" target="_blank" rel="noopener" style="color:var(--gold);text-decoration:underline;text-underline-offset:3px;">Learn more</a>

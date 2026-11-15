@@ -161,7 +161,7 @@
   </script>
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lora:ital,wght@0,600;0,700;1,500&family=Uncial+Antiqua&display=swap" rel="stylesheet" />
   <style>
     /* ─── RESET ─────────────────────────────────────────── */
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -177,11 +177,17 @@
 
     /* ─── CSS VARIABLES ──────────────────────────────────── */
     :root {
-      --gold: #c9a84c;
-      --gold-light: #e8c97a;
-      --gold-dim: rgba(201,168,76,0.18);
-      --green: #1a6b3c;
-      --green-light: #2a8f52;
+      /* Palette taken from the final Galway 28 logo files (Nov 2026) */
+      --gold: #d4b86c;
+      --gold-light: #f4e8c9;   /* logo cream */
+      --gold-dim: rgba(212,184,108,0.18);
+      --cream: #f4e8c9;
+      --green: #17693a;
+      --green-light: #169b62;
+      --flag-green: #169b62;
+      --flag-white: #ffffff;
+      --flag-orange: #ff883e;
+      --navy-dark: #070a13;
       --navy: #0a0e1a;
       --navy-mid: #111827;
       --navy-card: #161d2e;
@@ -202,7 +208,7 @@
       height: 64px;
       background: rgba(10,14,26,0.88);
       backdrop-filter: blur(12px);
-      border-bottom: 1px solid rgba(201,168,76,0.15);
+      border-bottom: 1px solid rgba(212,184,108,0.15);
     }
     .nav-brand {
       display: flex;
@@ -264,7 +270,7 @@
       position: absolute;
       inset: 0;
       background: radial-gradient(ellipse 80% 70% at 70% 50%, rgba(26,107,60,0.18) 0%, transparent 60%),
-                  radial-gradient(ellipse 60% 60% at 30% 60%, rgba(201,168,76,0.08) 0%, transparent 50%),
+                  radial-gradient(ellipse 60% 60% at 30% 60%, rgba(212,184,108,0.08) 0%, transparent 50%),
                   linear-gradient(160deg, #0d1221 0%, #0a0e1a 50%, #0c1520 100%);
     }
     /* Celtic pattern overlay */
@@ -272,7 +278,7 @@
       content: '';
       position: absolute;
       inset: 0;
-      background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='rgba(201,168,76,0.04)' stroke-width='1'%3E%3Ccircle cx='30' cy='30' r='20'/%3E%3Ccircle cx='30' cy='30' r='12'/%3E%3Cline x1='10' y1='30' x2='50' y2='30'/%3E%3Cline x1='30' y1='10' x2='30' y2='50'/%3E%3C/g%3E%3C/svg%3E");
+      background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='rgba(212,184,108,0.04)' stroke-width='1'%3E%3Ccircle cx='30' cy='30' r='20'/%3E%3Ccircle cx='30' cy='30' r='12'/%3E%3Cline x1='10' y1='30' x2='50' y2='30'/%3E%3Cline x1='30' y1='10' x2='30' y2='50'/%3E%3C/g%3E%3C/svg%3E");
       opacity: 0.5;
     }
 
@@ -285,7 +291,7 @@
       width: min(52vw, 680px);
       opacity: 0.22;
       pointer-events: none;
-      filter: sepia(0.3) saturate(1.4) drop-shadow(0 0 60px rgba(201,168,76,0.35));
+      filter: sepia(0.3) saturate(1.4) drop-shadow(0 0 60px rgba(212,184,108,0.35));
     }
     /* Medal as atmospheric hero background */
     .hero-medal-wrap {
@@ -303,19 +309,25 @@
       content: '';
       position: absolute;
       inset: -2px;
-      background:
-        linear-gradient(to right, rgba(10,14,26,1) 0%, rgba(10,14,26,0.45) 20%, transparent 45%),
-        linear-gradient(to left, rgba(10,14,26,0.85) 0%, transparent 30%),
-        linear-gradient(to bottom, rgba(10,14,26,0.85) 0%, transparent 25%),
-        linear-gradient(to top, rgba(10,14,26,0.85) 0%, transparent 25%);
-      z-index: 1;
+      display: none;   /* old fade overlay, not needed with the vector logo */
     }
     .hero-medal-wrap img {
-      width: min(320px, 62%);
-      opacity: 0.9;
-      filter: drop-shadow(0 0 70px rgba(201,168,76,0.28));
+      width: min(400px, 68%);
+      height: auto;
+      opacity: 1;
+      filter: drop-shadow(0 0 80px rgba(212,184,108,0.22));
       position: relative;
-      z-index: 0;
+      z-index: 2;
+    }
+    /* Irish tricolour strip along the foot of the hero */
+    .hero::after {
+      content: '';
+      position: absolute;
+      left: 0; right: 0; bottom: 0;
+      height: 6px;
+      z-index: 3;
+      background: linear-gradient(to right,
+        var(--flag-green) 0 33.333%, var(--flag-white) 33.333% 66.666%, var(--flag-orange) 66.666% 100%);
     }
 
     .hero-content {
@@ -333,14 +345,14 @@
       text-transform: uppercase;
       color: var(--gold);
       background: var(--gold-dim);
-      border: 1px solid rgba(201,168,76,0.25);
+      border: 1px solid rgba(212,184,108,0.25);
       padding: 0.35rem 0.9rem;
       border-radius: 100px;
       margin-bottom: 1.5rem;
     }
     .hero-eyebrow span { color: var(--text-muted); }
     h1 {
-      font-family: 'Playfair Display', serif;
+      font-family: 'Lora', Georgia, serif;
       font-size: clamp(2.4rem, 5.5vw, 4rem);
       font-weight: 700;
       line-height: 1.12;
@@ -348,8 +360,10 @@
       margin-bottom: 0.4rem;
     }
     h1 em {
-      font-style: italic;
-      color: var(--gold-light);
+      font-family: 'Uncial Antiqua', 'Lora', serif;  /* echoes the lettering of the logo */
+      font-style: normal;
+      font-weight: 400;
+      color: var(--gold);
     }
     .hero-location {
       font-size: 1rem;
@@ -371,7 +385,7 @@
       align-items: baseline;
       gap: 0.6rem;
       flex-wrap: wrap;
-      font-family: 'Playfair Display', serif;
+      font-family: 'Lora', Georgia, serif;
       font-size: clamp(1.7rem, 4.2vw, 2.6rem);
       font-weight: 700;
       line-height: 1.1;
@@ -456,7 +470,7 @@
     }
     .cd-sep {
       font-size: 2rem;
-      color: rgba(201,168,76,0.3);
+      color: rgba(212,184,108,0.3);
       align-self: flex-start;
       padding-top: 0.1rem;
     }
@@ -488,8 +502,8 @@
     /* ─── NOTIFY BANNER ──────────────────────────────────── */
     .notify-bar {
       background: var(--navy-mid);
-      border-top: 1px solid rgba(201,168,76,0.12);
-      border-bottom: 1px solid rgba(201,168,76,0.12);
+      border-top: 1px solid rgba(212,184,108,0.12);
+      border-bottom: 1px solid rgba(212,184,108,0.12);
       padding: 2.5rem 2rem;
     }
     .notify-inner {
@@ -502,7 +516,7 @@
       flex-wrap: wrap;
     }
     .notify-text h3 {
-      font-family: 'Playfair Display', serif;
+      font-family: 'Lora', Georgia, serif;
       font-size: 1.3rem;
       color: #fff;
       margin-bottom: 0.25rem;
@@ -553,7 +567,7 @@
       margin-bottom: 0.75rem;
     }
     .section-title {
-      font-family: 'Playfair Display', serif;
+      font-family: 'Lora', Georgia, serif;
       font-size: clamp(1.8rem, 3.5vw, 2.6rem);
       color: #fff;
       margin-bottom: 1rem;
@@ -579,12 +593,12 @@
     }
     .stat-card {
       background: var(--navy-card);
-      border: 1px solid rgba(201,168,76,0.12);
+      border: 1px solid rgba(212,184,108,0.12);
       border-radius: var(--radius);
       padding: 1.5rem;
     }
     .stat-num {
-      font-family: 'Playfair Display', serif;
+      font-family: 'Lora', Georgia, serif;
       font-size: 2.2rem;
       font-weight: 700;
       color: var(--gold-light);
@@ -630,7 +644,7 @@
     }
     .venue-map {
       background: var(--navy-card);
-      border: 1px solid rgba(201,168,76,0.12);
+      border: 1px solid rgba(212,184,108,0.12);
       border-radius: var(--radius);
       overflow: hidden;
       aspect-ratio: 4/3;
@@ -715,13 +729,13 @@
       flex-shrink: 0;
       width: 180px;
       background: var(--navy-card);
-      border: 1px solid rgba(201,168,76,0.15);
+      border: 1px solid rgba(212,184,108,0.15);
       border-radius: var(--radius);
       padding: 2rem;
       text-align: center;
     }
     .ema-logo-text {
-      font-family: 'Playfair Display', serif;
+      font-family: 'Lora', Georgia, serif;
       font-size: 1.6rem;
       color: var(--gold-light);
       font-weight: 700;
@@ -740,8 +754,8 @@
 
     /* ─── CONTACT / REGISTER ─────────────────────────────── */
     .register-section {
-      background: linear-gradient(135deg, rgba(26,107,60,0.15) 0%, rgba(201,168,76,0.08) 100%);
-      border-top: 1px solid rgba(201,168,76,0.12);
+      background: linear-gradient(135deg, rgba(26,107,60,0.15) 0%, rgba(212,184,108,0.08) 100%);
+      border-top: 1px solid rgba(212,184,108,0.12);
       text-align: center;
     }
     .register-section .section-title { margin-bottom: 0.75rem; }
@@ -787,7 +801,7 @@
     .footer-social a {
       display: flex; align-items: center; justify-content: center;
       width: 36px; height: 36px; border-radius: 50%;
-      border: 1px solid rgba(201,168,76,0.3);
+      border: 1px solid rgba(212,184,108,0.3);
       color: var(--text-muted); transition: border-color 0.2s, color 0.2s;
     }
     .footer-social a:hover { border-color: var(--gold); color: var(--gold-light); }
@@ -822,7 +836,7 @@
       position: fixed;
       top: 64px; left: 0; right: 0;
       background: rgba(10,14,26,0.98);
-      border-bottom: 1px solid rgba(201,168,76,0.2);
+      border-bottom: 1px solid rgba(212,184,108,0.2);
       z-index: 99;
       flex-direction: column;
       padding: 1rem 2rem 1.5rem;
@@ -859,10 +873,14 @@
       .nav-hamburger { display: flex; }
       .about-grid, .venue-grid { grid-template-columns: 1fr; gap: 2rem; }
       .ema-inner { gap: 2rem; }
-      .hero-medal-wrap { width: 60%; opacity: 0.4; }
+      .hero-medal-wrap { width: 46%; }
+      .hero-medal-wrap img { width: min(300px, 80%); }
     }
     @media (max-width: 520px) {
-      .hero-medal-wrap { display: none; }
+      .hero { flex-direction: column; align-items: flex-start; }
+      .hero-medal-wrap { position: relative; width: 100%; justify-content: flex-start; margin-bottom: 1.5rem; }
+      .hero-medal-wrap::after { display: none; }
+      .hero-medal-wrap img { width: 150px; }
       .about-stats { grid-template-columns: 1fr 1fr; }
     }
   </style>
@@ -955,7 +973,7 @@
     Place medal.jpg in the same folder as index.html.
   -->
   <div class="hero-medal-wrap">
-    <img src="galway2028-logo-hero.png" alt="EMACNS Galway 2028 official logo" />
+    <img src="galway28-full-logo-cream.svg" alt="Galway 28 — European Masters Athletics Non-Stadia Championships logo" />
   </div>
 
   <div class="hero-content">
@@ -1048,18 +1066,18 @@
         </div>
 
         <!-- Sponsor placeholder 1 -->
-        <div style="background:var(--navy-card);border:2px dashed rgba(201,168,76,0.25);border-radius:10px;padding:0.9rem 1.4rem;display:flex;align-items:center;justify-content:center;min-width:130px;min-height:70px;">
-          <span style="font-size:0.65rem;color:rgba(201,168,76,0.4);letter-spacing:0.06em;text-transform:uppercase;">Sponsor Logo</span>
+        <div style="background:var(--navy-card);border:2px dashed rgba(212,184,108,0.25);border-radius:10px;padding:0.9rem 1.4rem;display:flex;align-items:center;justify-content:center;min-width:130px;min-height:70px;">
+          <span style="font-size:0.65rem;color:rgba(212,184,108,0.4);letter-spacing:0.06em;text-transform:uppercase;">Sponsor Logo</span>
         </div>
 
         <!-- Sponsor placeholder 2 -->
-        <div style="background:var(--navy-card);border:2px dashed rgba(201,168,76,0.25);border-radius:10px;padding:0.9rem 1.4rem;display:flex;align-items:center;justify-content:center;min-width:130px;min-height:70px;">
-          <span style="font-size:0.65rem;color:rgba(201,168,76,0.4);letter-spacing:0.06em;text-transform:uppercase;">Sponsor Logo</span>
+        <div style="background:var(--navy-card);border:2px dashed rgba(212,184,108,0.25);border-radius:10px;padding:0.9rem 1.4rem;display:flex;align-items:center;justify-content:center;min-width:130px;min-height:70px;">
+          <span style="font-size:0.65rem;color:rgba(212,184,108,0.4);letter-spacing:0.06em;text-transform:uppercase;">Sponsor Logo</span>
         </div>
 
         <!-- Sponsor placeholder 3 -->
-        <div style="background:var(--navy-card);border:2px dashed rgba(201,168,76,0.25);border-radius:10px;padding:0.9rem 1.4rem;display:flex;align-items:center;justify-content:center;min-width:130px;min-height:70px;">
-          <span style="font-size:0.65rem;color:rgba(201,168,76,0.4);letter-spacing:0.06em;text-transform:uppercase;">Sponsor Logo</span>
+        <div style="background:var(--navy-card);border:2px dashed rgba(212,184,108,0.25);border-radius:10px;padding:0.9rem 1.4rem;display:flex;align-items:center;justify-content:center;min-width:130px;min-height:70px;">
+          <span style="font-size:0.65rem;color:rgba(212,184,108,0.4);letter-spacing:0.06em;text-transform:uppercase;">Sponsor Logo</span>
         </div>
 
       </div>
@@ -1098,13 +1116,13 @@
     </div>
 
     <!-- Age category table -->
-    <div style="margin-top:2.5rem;background:var(--navy-card);border:1px solid rgba(201,168,76,0.12);border-radius:var(--radius);padding:1.75rem 2rem;">
-      <h3 style="font-family:'Playfair Display',serif;font-size:1.1rem;color:#fff;margin-bottom:0.4rem;">Age Categories</h3>
+    <div style="margin-top:2.5rem;background:var(--navy-card);border:1px solid rgba(212,184,108,0.12);border-radius:var(--radius);padding:1.75rem 2rem;">
+      <h3 style="font-family:'Lora',Georgia,serif;font-size:1.1rem;color:#fff;margin-bottom:0.4rem;">Age Categories</h3>
       <p style="font-size:0.85rem;color:var(--text-muted);margin-bottom:1.25rem;">Age categories are determined by date of birth, with a cut-off of <strong style="color:#c5bfb5;">the first day of competition</strong> (exact date to be confirmed by EMA). Per WMA Rule 3.1, your category is fixed by the age you have reached on that date, not the date you actually compete:</p>
       <div style="overflow-x:auto;">
         <table style="width:100%;border-collapse:collapse;font-size:0.85rem;min-width:480px;">
           <thead>
-            <tr style="border-bottom:1px solid rgba(201,168,76,0.25);">
+            <tr style="border-bottom:1px solid rgba(212,184,108,0.25);">
               <th style="text-align:left;padding:0.6rem 0.5rem;color:var(--gold-light);font-weight:600;">Age Group</th>
               <th style="text-align:left;padding:0.6rem 0.5rem;color:var(--gold-light);font-weight:600;">Category</th>
               <th style="text-align:left;padding:0.6rem 0.5rem;color:var(--gold-light);font-weight:600;">Date of Birth</th>
@@ -1346,7 +1364,7 @@
 </section>
 
 <!-- ─── REGISTER YOUR INTEREST ──────────────────────────────── -->
-<section id="register" style="background: var(--navy-dark); border-top: 1px solid rgba(201,168,76,0.12);">
+<section id="register" style="background: var(--navy-dark); border-top: 1px solid rgba(212,184,108,0.12);">
   <div class="section-inner">
     <div style="display:grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start;" class="two-col-resp">
       <div>
@@ -1361,8 +1379,8 @@
           <span style="font-size:2rem;">🏔️</span>
         </div>
       </div>
-      <div style="background:var(--navy-card);border:1px solid rgba(201,168,76,0.25);border-radius:var(--radius);padding:2rem;">
-        <h3 style="font-family:'Playfair Display',serif;font-size:1.2rem;color:#fff;margin-bottom:0.75rem;">Be First to Know</h3>
+      <div style="background:var(--navy-card);border:1px solid rgba(212,184,108,0.25);border-radius:var(--radius);padding:2rem;">
+        <h3 style="font-family:'Lora',Georgia,serif;font-size:1.2rem;color:#fff;margin-bottom:0.75rem;">Be First to Know</h3>
         <p style="font-size:0.85rem;color:var(--text-muted);margin-bottom:1.5rem;">Fill in our quick interest form — takes less than a minute. We'll notify you the moment entries open.</p>
         <a href="https://docs.google.com/forms/d/e/1FAIpQLScmi6-6NjpggnHJXQxKlv3wwa9CiINqIsAySROSICbYLlnwlg/viewform?usp=header" target="_blank" rel="noopener" style="display:inline-block;background:var(--gold);color:#1a1a2e;font-weight:700;font-size:0.9rem;padding:0.85rem 1.8rem;border-radius:8px;transition:background 0.2s;" onmouseover="this.style.background='#b8992c'" onmouseout="this.style.background='var(--gold)'">Register Your Interest →</a>
         <p style="font-size:0.72rem;color:var(--text-muted);margin-top:0.85rem;">We'll only use your details to contact you about Galway 2028 — see our <a href="#privacy-faq" style="color:var(--gold);">privacy note</a>.</p>
@@ -1372,7 +1390,7 @@
 </section>
 
 <!-- ─── VOLUNTEER ───────────────────────────────────────────── -->
-<section id="volunteer" style="background: var(--navy-mid); border-top: 1px solid rgba(201,168,76,0.12);">
+<section id="volunteer" style="background: var(--navy-mid); border-top: 1px solid rgba(212,184,108,0.12);">
   <div class="section-inner">
     <div style="display:grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start;" class="two-col-resp">
       <div>
@@ -1387,8 +1405,8 @@
           <span style="font-size:2rem;">🌍</span>
         </div>
       </div>
-      <div style="background:var(--navy-card);border:1px solid rgba(201,168,76,0.12);border-radius:var(--radius);padding:2rem;">
-        <h3 style="font-family:'Playfair Display',serif;font-size:1.2rem;color:#fff;margin-bottom:0.75rem;">Register as a Volunteer</h3>
+      <div style="background:var(--navy-card);border:1px solid rgba(212,184,108,0.12);border-radius:var(--radius);padding:2rem;">
+        <h3 style="font-family:'Lora',Georgia,serif;font-size:1.2rem;color:#fff;margin-bottom:0.75rem;">Register as a Volunteer</h3>
         <p style="font-size:0.85rem;color:var(--text-muted);margin-bottom:1.5rem;">Fill in our quick volunteer form — takes less than a minute.</p>
         <a href="https://docs.google.com/forms/d/e/1FAIpQLScNbG8qFGe99zD9w_2xSg83W4lrbGyHqZid1xU5XfnWfYxbBw/viewform?usp=header" target="_blank" rel="noopener" style="display:inline-block;background:var(--green);color:#fff;font-weight:600;font-size:0.9rem;padding:0.85rem 1.8rem;border-radius:8px;transition:background 0.2s;" onmouseover="this.style.background='#2a8f52'" onmouseout="this.style.background='var(--green)'">Register as a Volunteer →</a>
         <p style="font-size:0.72rem;color:var(--text-muted);margin-top:0.85rem;">We'll only use your details to contact you about Galway 2028 — see our <a href="#privacy-faq" style="color:var(--gold);">privacy note</a>.</p>
@@ -1415,24 +1433,24 @@
         </div>
 
         <!-- Placeholder: Your logo here -->
-        <div style="background:var(--navy-card);border:2px dashed rgba(201,168,76,0.3);border-radius:10px;padding:1rem 1.5rem;display:flex;align-items:center;justify-content:center;min-width:160px;min-height:82px;">
-          <span style="font-size:0.75rem;color:rgba(201,168,76,0.5);letter-spacing:0.06em;text-transform:uppercase;">Your Logo Here</span>
+        <div style="background:var(--navy-card);border:2px dashed rgba(212,184,108,0.3);border-radius:10px;padding:1rem 1.5rem;display:flex;align-items:center;justify-content:center;min-width:160px;min-height:82px;">
+          <span style="font-size:0.75rem;color:rgba(212,184,108,0.5);letter-spacing:0.06em;text-transform:uppercase;">Your Logo Here</span>
         </div>
 
-        <div style="background:var(--navy-card);border:2px dashed rgba(201,168,76,0.3);border-radius:10px;padding:1rem 1.5rem;display:flex;align-items:center;justify-content:center;min-width:160px;min-height:82px;">
-          <span style="font-size:0.75rem;color:rgba(201,168,76,0.5);letter-spacing:0.06em;text-transform:uppercase;">Your Logo Here</span>
+        <div style="background:var(--navy-card);border:2px dashed rgba(212,184,108,0.3);border-radius:10px;padding:1rem 1.5rem;display:flex;align-items:center;justify-content:center;min-width:160px;min-height:82px;">
+          <span style="font-size:0.75rem;color:rgba(212,184,108,0.5);letter-spacing:0.06em;text-transform:uppercase;">Your Logo Here</span>
         </div>
 
-        <div style="background:var(--navy-card);border:2px dashed rgba(201,168,76,0.3);border-radius:10px;padding:1rem 1.5rem;display:flex;align-items:center;justify-content:center;min-width:160px;min-height:82px;">
-          <span style="font-size:0.75rem;color:rgba(201,168,76,0.5);letter-spacing:0.06em;text-transform:uppercase;">Your Logo Here</span>
+        <div style="background:var(--navy-card);border:2px dashed rgba(212,184,108,0.3);border-radius:10px;padding:1rem 1.5rem;display:flex;align-items:center;justify-content:center;min-width:160px;min-height:82px;">
+          <span style="font-size:0.75rem;color:rgba(212,184,108,0.5);letter-spacing:0.06em;text-transform:uppercase;">Your Logo Here</span>
         </div>
 
       </div>
     </div>
 
     <!-- Why sponsor -->
-    <div style="background:var(--navy-card);border:1px solid rgba(201,168,76,0.12);border-radius:var(--radius);padding:2rem;margin-bottom:2.5rem;">
-      <h3 style="font-family:'Playfair Display',serif;font-size:1.2rem;color:#fff;margin-bottom:1rem;">Why Sponsor Galway 2028?</h3>
+    <div style="background:var(--navy-card);border:1px solid rgba(212,184,108,0.12);border-radius:var(--radius);padding:2rem;margin-bottom:2.5rem;">
+      <h3 style="font-family:'Lora',Georgia,serif;font-size:1.2rem;color:#fff;margin-bottom:1rem;">Why Sponsor Galway 2028?</h3>
       <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:0.75rem;">
         <div style="display:flex;gap:0.6rem;align-items:flex-start;font-size:0.84rem;color:var(--text-muted);">
           <span style="color:var(--gold);flex-shrink:0;">✓</span> Exposure to an international audience from 20+ nations
@@ -1471,8 +1489,8 @@
         </ul>
       </div>
 
-      <div style="background:var(--navy-card);border:1px solid rgba(201,168,76,0.35);border-radius:var(--radius);padding:1.8rem;position:relative;">
-        <div style="position:absolute;top:-1px;right:1.2rem;background:rgba(201,168,76,0.35);color:var(--text);font-size:0.65rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;padding:0.25rem 0.7rem;border-radius:0 0 6px 6px;">Four available</div>
+      <div style="background:var(--navy-card);border:1px solid rgba(212,184,108,0.35);border-radius:var(--radius);padding:1.8rem;position:relative;">
+        <div style="position:absolute;top:-1px;right:1.2rem;background:rgba(212,184,108,0.35);color:var(--text);font-size:0.65rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;padding:0.25rem 0.7rem;border-radius:0 0 6px 6px;">Four available</div>
         <h4 style="font-size:1rem;font-weight:700;color:#fff;margin-bottom:0.75rem;">Gold Partner</h4>
         <ul style="font-size:0.82rem;color:var(--text-muted);line-height:1.7;padding-left:1rem;">
           <li>Logo on the website, on sponsor boards and in the official programme</li>
@@ -1504,10 +1522,10 @@
     </div>
 
     <!-- Contact + CTA -->
-    <div id="sponsor-form" style="background:var(--navy-card);border:1px solid rgba(201,168,76,0.15);border-radius:var(--radius);padding:2.5rem;max-width:700px;margin:0 auto;">
+    <div id="sponsor-form" style="background:var(--navy-card);border:1px solid rgba(212,184,108,0.15);border-radius:var(--radius);padding:2.5rem;max-width:700px;margin:0 auto;">
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:2rem;align-items:center;flex-wrap:wrap;">
         <div>
-          <h3 style="font-family:'Playfair Display',serif;font-size:1.2rem;color:#fff;margin-bottom:0.5rem;">Get in Touch</h3>
+          <h3 style="font-family:'Lora',Georgia,serif;font-size:1.2rem;color:#fff;margin-bottom:0.5rem;">Get in Touch</h3>
           <p style="font-size:0.85rem;color:var(--text-muted);margin-bottom:1rem;">Get in touch to discuss sponsorship opportunities and receive our full prospectus.</p>
           <div style="font-size:0.85rem;color:#c5bfb5;line-height:2;">
             <div>📧 <a href="mailto:galway2028ie@gmail.com" style="color:var(--gold);">galway2028ie@gmail.com</a></div>
@@ -1527,7 +1545,7 @@
 </section>
 
 <!-- ─── MERCHANDISE ────────────────────────────────────────── -->
-<section id="merch" style="background: var(--navy-mid); border-top: 1px solid rgba(201,168,76,0.12);">
+<section id="merch" style="background: var(--navy-mid); border-top: 1px solid rgba(212,184,108,0.12);">
   <div class="section-inner">
     <div style="display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center;" class="two-col-resp">
       <div>
@@ -1538,19 +1556,19 @@
         <a href="#register" style="display:inline-block;background:var(--green);color:#fff;font-weight:600;font-size:0.9rem;padding:0.85rem 1.8rem;border-radius:8px;transition:background 0.2s;" onmouseover="this.style.background='#2a8f52'" onmouseout="this.style.background='var(--green)'">Register Your Interest →</a>
       </div>
       <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:1rem;">
-        <div style="background:var(--navy-card);border:1px solid rgba(201,168,76,0.12);border-radius:var(--radius);padding:1.5rem 1rem;text-align:center;">
+        <div style="background:var(--navy-card);border:1px solid rgba(212,184,108,0.12);border-radius:var(--radius);padding:1.5rem 1rem;text-align:center;">
           <div style="font-size:1.8rem;margin-bottom:0.5rem;">👕</div>
           <span style="font-size:0.82rem;color:var(--text-muted);">T-Shirts</span>
         </div>
-        <div style="background:var(--navy-card);border:1px solid rgba(201,168,76,0.12);border-radius:var(--radius);padding:1.5rem 1rem;text-align:center;">
+        <div style="background:var(--navy-card);border:1px solid rgba(212,184,108,0.12);border-radius:var(--radius);padding:1.5rem 1rem;text-align:center;">
           <div style="font-size:1.8rem;margin-bottom:0.5rem;">🧢</div>
           <span style="font-size:0.82rem;color:var(--text-muted);">Baseball Caps</span>
         </div>
-        <div style="background:var(--navy-card);border:1px solid rgba(201,168,76,0.12);border-radius:var(--radius);padding:1.5rem 1rem;text-align:center;">
+        <div style="background:var(--navy-card);border:1px solid rgba(212,184,108,0.12);border-radius:var(--radius);padding:1.5rem 1rem;text-align:center;">
           <div style="font-size:1.8rem;margin-bottom:0.5rem;">👜</div>
           <span style="font-size:0.82rem;color:var(--text-muted);">Tote Bags</span>
         </div>
-        <div style="background:var(--navy-card);border:1px solid rgba(201,168,76,0.12);border-radius:var(--radius);padding:1.5rem 1rem;text-align:center;">
+        <div style="background:var(--navy-card);border:1px solid rgba(212,184,108,0.12);border-radius:var(--radius);padding:1.5rem 1rem;text-align:center;">
           <div style="font-size:1.8rem;margin-bottom:0.5rem;">🧣</div>
           <span style="font-size:0.82rem;color:var(--text-muted);">West of Ireland Designs</span>
         </div>
@@ -1650,7 +1668,7 @@
 </script>
 
 <!-- ─── COOKIE CONSENT ───────────────────────────────────────── -->
-<div id="cookie-banner" style="display:none;position:fixed;bottom:0;left:0;right:0;z-index:999;background:#0d1221;border-top:1px solid rgba(201,168,76,0.25);padding:1.25rem 2rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem;">
+<div id="cookie-banner" style="display:none;position:fixed;bottom:0;left:0;right:0;z-index:999;background:#0d1221;border-top:1px solid rgba(212,184,108,0.25);padding:1.25rem 2rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem;">
   <p style="font-size:0.82rem;color:#c5bfb5;max-width:700px;margin:0;">
     We use cookies to analyse site traffic (Google Analytics) and, if you accept, to measure our Facebook and Instagram advertising (Meta Pixel). No personal data is sold or shared with third parties.
     <a href="https://policies.google.com/privacy" target="_blank" rel="noopener" style="color:var(--gold);text-decoration:underline;text-underline-offset:3px;">Learn more</a>
